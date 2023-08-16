@@ -23,79 +23,89 @@ import Layout from '../layouts/Layout.astro';
 				</linearGradient>
 			</defs>
 		</svg>
+
 		<h1><span class="text-gradient">Languessr</span></h1>
-		<p class="instructions">
-			A mystery language has the following phonemic inventory.
-			<button id="start">New Game</button>
-			<br/>
-		</p>
-		<table id="consonants"><tr><td>Consonants:</td></tr></table>
-		<table id="vowels"><tr><td>Vowels:</td></tr></table>
-		<table id="tones"><tr><td>Tones:</td></tr></table>
-		<p id="dump"></p>
-		<p class="instructions">
-			Try to answer these questions:
-			<button id="reveal">Reveal Answers</button>
-		</p>
-		<ol>
-			<li><span class="text-gradient">What region is it spoken in?</span></li>
-			<li><span class="text-gradient">What country is it spoken in?</span></li>
-			<li><span class="text-gradient">What is the language?</span></li>
-		</ol>
-		<div id="map"></div>
-		<!-- <script>
-			function initMap() {
-				let uluru = {lat: -25.344, lng: 131.036};
-				let map = new google.maps.Map(
-					document.getElementById('map'),
-					{zoom: 4, center: uluru}
-				);
-			}			
-		</script> -->
-		<script>
-			(g=>{var h,a,k,p="The Google Maps JavaScript API",c="google",l="importLibrary",q="__ib__",m=document,b=window;b=b[c]||(b[c]={});var d=b.maps||(b.maps={}),r=new Set,e=new URLSearchParams,u=()=>h||(h=new Promise(async(f,n)=>{await (a=m.createElement("script"));e.set("libraries",[...r]+"");for(k in g)e.set(k.replace(/[A-Z]/g,t=>"_"+t[0].toLowerCase()),g[k]);e.set("callback",c+".maps."+q);a.src=`https://maps.${c}apis.com/maps/api/js?`+e;d[q]=f;a.onerror=()=>h=n(Error(p+" could not load."));a.nonce=m.querySelector("script[nonce]")?.nonce||"";m.head.append(a)}));d[l]?console.warn(p+" only loads once. Ignoring:",g):d[l]=(f,...n)=>r.add(f)&&u().then(()=>d[l](f,...n))})({
-			  key: "AIzaSyC9UJUs0xwqKZ28p6MORyH4uVLpb-crauo",
-			  v: "weekly",
-			  // Use the 'v' parameter to indicate the version to use (weekly, beta, alpha, etc.).
-			  // Add other bootstrap parameters as needed, using camel case.
-			});
-		  </script>
-		<!-- <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyC9UJUs0xwqKZ28p6MORyH4uVLpb-crauo&callback=initMap"></script> -->
-		<p id="answer"></p>
+		<div id="all">
+		<div id="left-half">
+			<p class="instructions">
+				A mystery language has the following phonemic inventory.
+				<button id="start" class="legal-button">Next Round</button>
+				<br/>
+			</p>
+			<div id="tables">
+				<table id="consonants"><tr>
+						<td>Consonants</td> <td>Labial</td> <td>Coronal</td> <td>Retroflex</td> <td>Palatal</td> <td>Velar</td> <td>Laryngeal</td>
+					</tr> <tr>
+						<td>Nasal</td> <td></td> <td></td> <td></td> <td></td> <td></td> <td></td>
+					</tr> <tr>
+						<td>Plosive</td> <td></td> <td></td> <td></td> <td></td> <td></td> <td></td>
+					</tr> <tr>
+						<td>Fricative</td> <td></td> <td></td> <td></td> <td></td> <td></td> <td></td>
+					</tr> <tr>
+						<td>Liquid</td> <td></td> <td></td> <td></td> <td></td> <td></td> <td></td>
+					</tr> <tr>
+						<td>Non-Pulmonic</td> <td></td> <td></td> <td></td> <td></td> <td></td> <td></td>
+					</tr>
+				</table>
+				<br>
+				<div id="vocoids">
+					<table id="vowels"><tr>
+							<td>Vowels</td> <td>Front</td> <td>Central</td> <td>Back</td>
+						</tr> <tr>
+							<td>Close</td> <td></td> <td></td> <td></td>
+						</tr> <tr>
+							<td>Close-Mid</td> <td></td> <td></td> <td></td>
+						</tr> <tr>
+							<td>Open-Mid</td> <td></td> <td></td> <td></td>
+						</tr> <tr>
+							<td>Open</td> <td></td> <td></td> <td></td>
+						</tr>
+					</table>
+					<br>
+					<table id="tones"><tr>
+							<td>Level Tones</td><td>Contour Tones</td>
+						</tr> <tr>
+							<td style="height:30px;"></td> <td></td>
+						</tr>
+					</table>
+				</div>
+			</div>
+		</div>
+		<div id="right-half">
+			<p class="instructions">
+				Guess where on the map the language is spoken:
+				<button id="reveal">Guess</button>
+			</p>
+			<div id="map"></div>
+			<br>
+			<p id="answer"></p>
+			<p id="result"></p>
+		</div>
+		</div>
 	</main>
 </Layout>
 
 <style>
 	main {
 		margin: auto;
-		padding: 1rem;
-		width: 800px;
-		max-width: calc(100% - 2rem);
 		color: rgb(var(--accent-light));
 		font-size: 20px;
 		line-height: 1.6;
-	}
-	.astro-a {
-		position: absolute;
-		top: -32px;
-		left: 50%;
-		transform: translatex(-50%);
-		width: 220px;
-		height: auto;
-		z-index: -1;
 	}
 	h1 {
 		font-size: 4rem;
 		font-weight: 700;
 		line-height: 1;
 		text-align: center;
-		margin-bottom: 1em;
+		margin-bottom: 0.4em;
 	}
 	.text-gradient {
 		background-image: var(--accent-gradient);
 		-webkit-background-clip: text;
 		-webkit-text-fill-color: transparent;
 		background-size: 400%;
+		width: 50%;
+		min-width: 50%;
 		background-position: 0%;
 	}
 	.instructions {
@@ -105,22 +115,8 @@ import Layout from '../layouts/Layout.astro';
 		padding: 1.5rem;
 		border-radius: 8px;
 	}
-	.instructions code {
-		font-size: 0.8em;
-		font-weight: bold;
-		background: rgba(var(--accent-light), 12%);
-		color: rgb(var(--accent-light));
-		border-radius: 4px;
-		padding: 0.3em 0.4em;
-	}
 	.instructions strong {
 		color: rgb(var(--accent-light));
-	}
-	.link-card-grid {
-		display: grid;
-		grid-template-columns: repeat(auto-fit, minmax(24ch, 1fr));
-		gap: 2rem;
-		padding: 0;
 	}
 	button {
 		float: right;
@@ -132,19 +128,71 @@ import Layout from '../layouts/Layout.astro';
 		width: 108px;
 		color: black;
 		font-size: 16px;
+		transition-duration: 0.4s;
+	}
+	.legal-button:hover {
+		background-color: rgb(var(--accent-light));
 	}
 	#reveal {
 		width: 144px;
 	}
-	#answer {
+	#answer, #result {
 		text-align: center;
+		margin-top: 5px;
 	}
-	table, th, tr, td {
+	table, td {
 		border: 2px solid rgb(var(--accent-dark));
+		border-radius: 4px;
 		background-color: rgb(var(--accent));
+		padding-left: 3px;
+		padding-right: 3px;
+	}
+	#map {
+		background-color: blue;
+		width: 90%;
+		max-width: 90%;
+		margin: auto;
+		height: 300px;
+	}
+	#the {
+		display: inline-block;
+	}
+	ol {
+		margin-bottom: 10px;
+	}
+	#all {
+		display: flex;
+		justify-content: center;
+		margin: auto;
+		text-align: center;
+		width: 100%;
+		
+	}
+	#vocoids {
+		display: flex;
+	}
+	#tones {
+		height: 30px;
+		float: right;
+		margin-right: 0px;
+		margin-left: auto;
+		align-self: right;
+	}
+	#consonants {
+		width: 100%;
+	}
+	#answer, #result {
+		width: 90%;
+		text-align: center;
+		margin: auto;
+		max-width: 90%;
+		clear: left;
+	}
+	#right-half, #left-half {
+		max-width: 40%;
+		min-width: 40%;
 	}
 </style>
 
 <script src="https://polyfill.io/v3/polyfill.min.js?features=default"></script>
 <script src="../scripts/main.js"></script>
-<script type="module" src="../scripts/map.js"></script>
