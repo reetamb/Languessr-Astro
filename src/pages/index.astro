@@ -28,7 +28,7 @@ import Layout from '../layouts/Layout.astro';
 		<div id="all">
 		<div id="left-half">
 			<p class="instructions">
-				A mystery language has the following phonemic inventory.
+				A mystery language has these phonemes:
 				<button id="start" class="legal-button">Next Round</button>
 				<br/>
 			</p>
@@ -125,16 +125,13 @@ import Layout from '../layouts/Layout.astro';
 		border-radius: 4px;
 		vertical-align: center;
 		height: 32px;
-		width: 108px;
+		width: auto;
 		color: black;
 		font-size: 16px;
 		transition-duration: 0.4s;
 	}
 	.legal-button:hover {
 		background-color: rgb(var(--accent-light));
-	}
-	#reveal {
-		width: 144px;
 	}
 	#answer, #result {
 		text-align: center;
@@ -164,7 +161,6 @@ import Layout from '../layouts/Layout.astro';
 		display: flex;
 		justify-content: center;
 		margin: auto;
-		text-align: center;
 		width: 100%;
 		
 	}
@@ -189,8 +185,8 @@ import Layout from '../layouts/Layout.astro';
 		clear: left;
 	}
 	#right-half, #left-half {
-		max-width: 40%;
-		min-width: 40%;
+		max-width: 50%;
+		min-width: 50%;
 	}
 </style>
 
