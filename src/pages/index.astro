@@ -1,19 +1,9 @@
 ---
 import Layout from '../layouts/Layout.astro';
-import Card from '../components/Card.astro';
 ---
 
-<Layout title="Welcome to Astro.">
+<Layout title="Languessr.">
 	<main>
-		<svg
-			class="astro-a"
-			width="495"
-			height="623"
-			viewBox="0 0 495 623"
-			fill="none"
-			xmlns="http://www.w3.org/2000/svg"
-			aria-hidden="true"
-		>
 			<path
 				fill-rule="evenodd"
 				clip-rule="evenodd"
@@ -33,33 +23,45 @@ import Card from '../components/Card.astro';
 				</linearGradient>
 			</defs>
 		</svg>
-		<h1>Welcome to <span class="text-gradient">Astro</span></h1>
+		<h1><span class="text-gradient">Languessr</span></h1>
 		<p class="instructions">
-			To get started, open the directory <code>src/pages</code> in your project.<br />
-			<strong>Code Challenge:</strong> Tweak the "Welcome to Astro" message above.
+			A mystery language has the following phonemic inventory.
+			<button id="start">New Game</button>
+			<br/>
 		</p>
-		<ul role="list" class="link-card-grid">
-			<Card
-				href="https://docs.astro.build/"
-				title="Documentation"
-				body="Learn how Astro works and explore the official API docs."
-			/>
-			<Card
-				href="https://astro.build/integrations/"
-				title="Integrations"
-				body="Supercharge your project with new frameworks and libraries."
-			/>
-			<Card
-				href="https://astro.build/themes/"
-				title="Themes"
-				body="Explore a galaxy of community-built starter themes."
-			/>
-			<Card
-				href="https://astro.build/chat/"
-				title="Community"
-				body="Come say hi to our amazing Discord community. ❤️"
-			/>
-		</ul>
+		<table id="consonants"><tr><td>Consonants:</td></tr></table>
+		<table id="vowels"><tr><td>Vowels:</td></tr></table>
+		<table id="tones"><tr><td>Tones:</td></tr></table>
+		<p id="dump"></p>
+		<p class="instructions">
+			Try to answer these questions:
+			<button id="reveal">Reveal Answers</button>
+		</p>
+		<ol>
+			<li><span class="text-gradient">What region is it spoken in?</span></li>
+			<li><span class="text-gradient">What country is it spoken in?</span></li>
+			<li><span class="text-gradient">What is the language?</span></li>
+		</ol>
+		<div id="map"></div>
+		<!-- <script>
+			function initMap() {
+				let uluru = {lat: -25.344, lng: 131.036};
+				let map = new google.maps.Map(
+					document.getElementById('map'),
+					{zoom: 4, center: uluru}
+				);
+			}			
+		</script> -->
+		<script>
+			(g=>{var h,a,k,p="The Google Maps JavaScript API",c="google",l="importLibrary",q="__ib__",m=document,b=window;b=b[c]||(b[c]={});var d=b.maps||(b.maps={}),r=new Set,e=new URLSearchParams,u=()=>h||(h=new Promise(async(f,n)=>{await (a=m.createElement("script"));e.set("libraries",[...r]+"");for(k in g)e.set(k.replace(/[A-Z]/g,t=>"_"+t[0].toLowerCase()),g[k]);e.set("callback",c+".maps."+q);a.src=`https://maps.${c}apis.com/maps/api/js?`+e;d[q]=f;a.onerror=()=>h=n(Error(p+" could not load."));a.nonce=m.querySelector("script[nonce]")?.nonce||"";m.head.append(a)}));d[l]?console.warn(p+" only loads once. Ignoring:",g):d[l]=(f,...n)=>r.add(f)&&u().then(()=>d[l](f,...n))})({
+			  key: "AIzaSyC9UJUs0xwqKZ28p6MORyH4uVLpb-crauo",
+			  v: "weekly",
+			  // Use the 'v' parameter to indicate the version to use (weekly, beta, alpha, etc.).
+			  // Add other bootstrap parameters as needed, using camel case.
+			});
+		  </script>
+		<!-- <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyC9UJUs0xwqKZ28p6MORyH4uVLpb-crauo&callback=initMap"></script> -->
+		<p id="answer"></p>
 	</main>
 </Layout>
 
@@ -69,7 +71,7 @@ import Card from '../components/Card.astro';
 		padding: 1rem;
 		width: 800px;
 		max-width: calc(100% - 2rem);
-		color: white;
+		color: rgb(var(--accent-light));
 		font-size: 20px;
 		line-height: 1.6;
 	}
@@ -120,4 +122,29 @@ import Card from '../components/Card.astro';
 		gap: 2rem;
 		padding: 0;
 	}
+	button {
+		float: right;
+		background-color: rgb(var(--accent));
+		border: 3px solid rgb(var(--accent-dark));
+		border-radius: 4px;
+		vertical-align: center;
+		height: 32px;
+		width: 108px;
+		color: black;
+		font-size: 16px;
+	}
+	#reveal {
+		width: 144px;
+	}
+	#answer {
+		text-align: center;
+	}
+	table, th, tr, td {
+		border: 2px solid rgb(var(--accent-dark));
+		background-color: rgb(var(--accent));
+	}
 </style>
+
+<script src="https://polyfill.io/v3/polyfill.min.js?features=default"></script>
+<script src="../scripts/main.js"></script>
+<script type="module" src="../scripts/map.js"></script>
