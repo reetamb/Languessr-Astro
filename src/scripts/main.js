@@ -10,12 +10,15 @@ var names = Object.keys(languages);
 var answer = document.getElementById("answer");
 var result = document.getElementById("result");
 var reveal = document.getElementById("reveal");
+var score = document.getElementById("score");
 var name;
 var location;
 var latlng;
 var consonants = document.getElementById("consonants");
 var vowels = document.getElementById("vowels");
 var tones = document.getElementById("tones")
+var points = 0;
+const earth = 6371;
 
 start.onclick = newLanguage;
 reveal.onclick = showAnswer;
@@ -52,7 +55,6 @@ loader.load().then(async () => {
 });
 
 function getDistance(pos1, pos2) {
-    var R = 6371; // Radius of the earth in km
     var dLat = deg2rad(pos2.lat-pos1.lat);  // deg2rad below
     var dLon = deg2rad(pos2.lng-pos1.lng); 
     var a = 
@@ -61,7 +63,7 @@ function getDistance(pos1, pos2) {
         Math.sin(dLon/2) * Math.sin(dLon/2)
         ; 
     var c = 2 * Math.atan2(Math.sqrt(a), Math.sqrt(1-a)); 
-    var d = R * c; // Distance in km
+    var d = earth * c; // Distance in km
     return parseFloat(Math.floor(d));
 }
   
@@ -156,12 +158,18 @@ async function showAnswer(){
             position: latlng,
             title: name,
         });
-
+        let distance = getDistance(latlng, guessMarker.position);
         map.panTo(latlng);
-
+        let pointsThisRound = 5000;
+        pointsThisRound -= Math.floor(5000 * (distance / (earth * Math.PI)));
+        points += Math.floor(pointsThisRound);
+        score.innerHTML = `Total Score: ${points}`;
+        
         if (guessMarker != null) {
-            result.textContent = `Your guess was ${getDistance(latlng, guessMarker.position)} km away from the correct location.`;
+            result.textContent = `Your guess was ${distance} km away from the correct location, which is worth ${pointsThisRound} points out of 5000 possible.`;
         }
+
+        reveal.classList.remove('legal-button');
     }
 }
 
