@@ -33468,7 +33468,7 @@
             "ʊ"
         ]
     },
-    "Ijo de l'est; Eastern Ijo": {
+    "Eastern Ijo": {
         "id": "734",
         "glottocode": "sout2774",
         "dialect": "Ijo de l'est; Eastern Ijo (Okrika)",
@@ -43261,7 +43261,7 @@
             "u"
         ]
     },
-    "Mbodomo; Mbódɔ̀mɔ́": {
+    "Mbodomo": {
         "id": "939",
         "glottocode": "gbay1281",
         "dialect": "NA",
@@ -47890,7 +47890,7 @@
             "ɨ"
         ]
     },
-    "Standard Chinese; Mandarin": {
+    "Mandarin": {
         "id": "1047",
         "glottocode": "mand1415",
         "dialect": "Beijing",
@@ -47950,7 +47950,7 @@
             "ɤ"
         ]
     },
-    "Kalabari; Kirike; Kalabari-Ijo": {
+    "Kalabari": {
         "id": "1048",
         "glottocode": "kala1381",
         "dialect": "Kalabari-Ijo",
@@ -48112,7 +48112,7 @@
             "ʏ"
         ]
     },
-    "Tamambo; Malo": {
+    "Tamambo": {
         "id": "1051",
         "glottocode": "malo1243",
         "dialect": "NA",
@@ -48226,7 +48226,7 @@
             "uː"
         ]
     },
-    "Mambay; Mambai": {
+    "Mambai": {
         "id": "1054",
         "glottocode": "mamb1294",
         "dialect": "NA",
@@ -48551,7 +48551,7 @@
             "ṵ"
         ]
     },
-    "Baga Koga; Koba; Barka": {
+    "Baga Koga": {
         "id": "1060",
         "glottocode": "baga1273",
         "dialect": "NA",
@@ -48645,7 +48645,7 @@
             "u"
         ]
     },
-    "Tsuvadi; Avadi; Abadi; Evadi; Kamberi; Ibeto": {
+    "Tsuvadi": {
         "id": "1063",
         "glottocode": "tsuv1239",
         "dialect": "NA",
@@ -48708,7 +48708,7 @@
             "ɔ̃"
         ]
     },
-    "Hanga Hundi; Kwasengen; West Wosera": {
+    "Hanga Hundi": {
         "id": "1064",
         "glottocode": "hang1263",
         "dialect": "NA",
@@ -48742,7 +48742,7 @@
             "ɨ"
         ]
     },
-    "Blang; Plang; Bulang; Pulang; Pula; Kawa; K''ala; Kontoi'": {
+    "Pulang": {
         "id": "1065",
         "glottocode": "blan1242",
         "dialect": "NA",
@@ -48793,7 +48793,7 @@
             "ɯ̤"
         ]
     },
-    "Tatana''; Tatanaq; Tatana'": {
+    "Tatanaq": {
         "id": "1066",
         "glottocode": "tata1257",
         "dialect": "NA",
@@ -48870,7 +48870,7 @@
             "ɛ"
         ]
     },
-    "Che; Rukuba; Kuche; Bache; Inchazi; Sale": {
+    "Che": {
         "id": "1068",
         "glottocode": "chee1238",
         "dialect": "NA",
@@ -48938,7 +48938,7 @@
             "ʊː"
         ]
     },
-    "Tolowa; Tolowa-Chetco": {
+    "Tolowa": {
         "id": "1069",
         "glottocode": "tolo1259",
         "dialect": "NA",
@@ -48980,7 +48980,7 @@
             "ɑ"
         ]
     },
-    "Pagibete; Apakabeti; Apakibeti; Apagibete;Apagibeti; Pagabete": {
+    "Pagibete": {
         "id": "1070",
         "glottocode": "pagi1243",
         "dialect": "NA",
@@ -49126,7 +49126,7 @@
             "ʊ"
         ]
     },
-    "Pilaga; Pilagá": {
+    "Pilaga": {
         "id": "1073",
         "glottocode": "pila1245",
         "dialect": "NA",
@@ -49159,67 +49159,7 @@
             "ʌ"
         ]
     },
-    "Euchee; Yuchi": {
-        "id": "1074",
-        "glottocode": "yuch1247",
-        "dialect": "NA",
-        "location": [
-            "35.75",
-            "-86.75"
-        ],
-        "phonemes": [
-            "b",
-            "d",
-            "dz",
-            "d̠ʒ",
-            "f",
-            "fʼ",
-            "h",
-            "j",
-            "j̰",
-            "k",
-            "kʰ",
-            "kʼ",
-            "l",
-            "l̰",
-            "n",
-            "n̰",
-            "p",
-            "pʰ",
-            "pʼ",
-            "s",
-            "sʼ",
-            "t",
-            "ts",
-            "tsʰ",
-            "tsʼ",
-            "tʰ",
-            "tʼ",
-            "t̠ʃ",
-            "t̠ʃʰ",
-            "t̠ʃʼ",
-            "w",
-            "w̰",
-            "ɡ",
-            "ɬ",
-            "ɬʼ",
-            "ʃ",
-            "ʃʼ",
-            "ʔ",
-            "e",
-            "ẽ",
-            "i",
-            "ĩ",
-            "o",
-            "õ",
-            "u",
-            "æ",
-            "æ̃",
-            "ɑ",
-            "ɑ̃"
-        ]
-    },
-    "Kurripako; Baniwa; Baniwa (Icana)": {
+    "Kurripako": {
         "id": "1075",
         "glottocode": "bani1255",
         "dialect": "Ehe-Khenim",
@@ -49267,7 +49207,7 @@
             "ui"
         ]
     },
-    "Karitiana; Karitiâna": {
+    "Karitiana": {
         "id": "1076",
         "glottocode": "kari1311",
         "dialect": "NA",
@@ -49303,7 +49243,7 @@
             "ɨ̃"
         ]
     },
-    "Iñupiaq; Iñupiat; Inupiat; Inupiaq": {
+    "Iñupiaq": {
         "id": "1077",
         "glottocode": "nort2943",
         "dialect": "NA",
@@ -49341,7 +49281,7 @@
             "u"
         ]
     },
-    "Tlacolula Valley Zapotec; Western Tlacolula Zapotec; Zapotec": {
+    "Tlacolula Valley Zapotec": {
         "id": "1078",
         "glottocode": "sanj1284",
         "dialect": " San Juan Guelavía",
@@ -49436,7 +49376,7 @@
             "u"
         ]
     },
-    "Sidaama; Sidamo; Sidamic": {
+    "Sidaama": {
         "id": "1080",
         "glottocode": "sida1246",
         "dialect": "NA",
@@ -49616,7 +49556,7 @@
             "ɪ"
         ]
     },
-    "Southern Ute; Ute; Ute-Southern Paiute": {
+    "Southern Ute": {
         "id": "1084",
         "glottocode": "utes1238",
         "dialect": "NA",
@@ -49664,7 +49604,7 @@
             "ɯː"
         ]
     },
-    "Dupaningan Agta; Eastern Cagayan Agta; Dupaninan Agta": {
+    "Dupaningan Agta": {
         "id": "1085",
         "glottocode": "dupa1235",
         "dialect": "NA",
@@ -49695,7 +49635,7 @@
             "ɛ"
         ]
     },
-    "Tongan; Tonga": {
+    "Tongan": {
         "id": "1086",
         "glottocode": "tong1325",
         "dialect": "NA",
@@ -49723,7 +49663,7 @@
             "u"
         ]
     },
-    "Lake Miwok; Miwok (Lake)": {
+    "Lake Miwok": {
         "id": "1087",
         "glottocode": "lake1258",
         "dialect": "NA",
@@ -50899,67 +50839,6 @@
             "ʏ"
         ]
     },
-    "Gojri; Gujari; Gujar": {
-        "id": "1112",
-        "glottocode": "guja1253",
-        "dialect": "NA",
-        "location": [
-            "33.7",
-            "75.11"
-        ],
-        "phonemes": [
-            "b",
-            "d̠ʒ",
-            "d̪",
-            "f",
-            "h",
-            "j",
-            "k",
-            "kʰ",
-            "l̪",
-            "m",
-            "n̪",
-            "p",
-            "pʰ",
-            "r",
-            "s̪",
-            "t̠ʃ",
-            "t̠ʃʰ",
-            "t̪",
-            "t̪ʰ",
-            "w",
-            "x",
-            "z̪",
-            "ɖ",
-            "ɡ",
-            "ɣ",
-            "ɭ",
-            "ɳ",
-            "ɽ",
-            "ɾ̪",
-            "ʃ",
-            "ʈ",
-            "ʈʰ",
-            "aː",
-            "ãː",
-            "eː",
-            "ẽː",
-            "iː",
-            "ĩː",
-            "oː",
-            "õː",
-            "u",
-            "uː",
-            "ũː",
-            "æ",
-            "ɔː",
-            "ɔ̃ː",
-            "ə",
-            "ɛː",
-            "ɛ̃ː",
-            "ɪ"
-        ]
-    },
     "Wanano": {
         "id": "1113",
         "glottocode": "guan1269",
@@ -51633,7 +51512,7 @@
             "oː"
         ]
     },
-    "Western Mam; Tacanec": {
+    "Western Mam": {
         "id": "1128",
         "glottocode": "mamm1241",
         "dialect": "Tacaná",
@@ -55128,7 +55007,7 @@
             "ɛː"
         ]
     },
-    "Bambalang; Círàmbɔ́": {
+    "Bambalang": {
         "id": "1204",
         "glottocode": "bamb1265",
         "dialect": "NA",
@@ -55229,7 +55108,7 @@
             "uː"
         ]
     },
-    "Öñge; Ong; Onge": {
+    "Onge": {
         "id": "1206",
         "glottocode": "onge1236",
         "dialect": "NA",
@@ -55264,7 +55143,7 @@
             "ɤ"
         ]
     },
-    "Oluta Popoluca; Olutec": {
+    "Olutec": {
         "id": "1207",
         "glottocode": "olut1240",
         "dialect": "NA",
@@ -55535,7 +55414,7 @@
             "uː"
         ]
     },
-    "Ngad''a; Ngadha'": {
+    "Ngadha'": {
         "id": "1213",
         "glottocode": "ngad1261",
         "dialect": "NA",
@@ -55617,7 +55496,7 @@
             "ɛ"
         ]
     },
-    "Ke''o; Kéo'": {
+    "Kéo'": {
         "id": "1215",
         "glottocode": "keoo1238",
         "dialect": "Udiworowatu",
@@ -55658,7 +55537,7 @@
             "ə"
         ]
     },
-    "Aheu; Thavung": {
+    "Aheu": {
         "id": "1216",
         "glottocode": "aheu1239",
         "dialect": "Samhing",
@@ -55714,52 +55593,6 @@
             "ɨː",
             "ʌ",
             "ʌː"
-        ]
-    },
-    "Sakirabiá; Mekens": {
-        "id": "1217",
-        "glottocode": "saki1248",
-        "dialect": "NA",
-        "location": [
-            "-13.054",
-            "-62.0927"
-        ],
-        "phonemes": [
-            "b",
-            "j",
-            "k",
-            "kʷ",
-            "m",
-            "n",
-            "p",
-            "s",
-            "t",
-            "w",
-            "ŋ",
-            "ŋʷ",
-            "ɡ",
-            "ɾ",
-            "ʔ",
-            "a",
-            "aː",
-            "ã",
-            "ãː",
-            "e",
-            "eː",
-            "ẽ",
-            "ẽː",
-            "i",
-            "iː",
-            "ĩ",
-            "ĩː",
-            "o",
-            "oː",
-            "õ",
-            "õː",
-            "ɨ",
-            "ɨː",
-            "ɨ̃",
-            "ɨ̃ː"
         ]
     },
     "Tiwi": {
@@ -55875,7 +55708,7 @@
             "ə"
         ]
     },
-    "Thulung; Thulung Rai": {
+    "Thulung": {
         "id": "1220",
         "glottocode": "thul1246",
         "dialect": "NA",
@@ -56011,7 +55844,7 @@
             "u"
         ]
     },
-    "Colorado; Tsafiki": {
+    "Colorado": {
         "id": "1222",
         "glottocode": "colo1256",
         "dialect": "NA",
@@ -56156,7 +55989,7 @@
             "ɨi"
         ]
     },
-    "Tuva; Tuvan": {
+    "Tuva": {
         "id": "1225",
         "glottocode": "tuvi1240",
         "dialect": "NA",
@@ -56204,7 +56037,7 @@
             "ɯː"
         ]
     },
-    "Kinnauri; Kanauri Himachal Pradesh; Kalpa Nichar and Pooh areas": {
+    "Kinnauri": {
         "id": "1226",
         "glottocode": "kinn1249",
         "dialect": "0062",
@@ -56277,7 +56110,7 @@
             "ʊ̃"
         ]
     },
-    "Aneityum; Anejom̃": {
+    "Aneityum": {
         "id": "1228",
         "glottocode": "anei1239",
         "dialect": "NA",
@@ -56560,7 +56393,7 @@
             "u̙"
         ]
     },
-    "Adamawa Fulfulde; Adamawa Fulani": {
+    "Adamawa Fulfulde": {
         "id": "1234",
         "glottocode": "adam1253",
         "dialect": "NA",
@@ -56647,7 +56480,7 @@
             "ə"
         ]
     },
-    "Sanuma; Sanumá": {
+    "Sanumá": {
         "id": "1236",
         "glottocode": "sanu1240",
         "dialect": "NA",
@@ -56682,7 +56515,7 @@
             "ɨ̃"
         ]
     },
-    "Wari; Wari''; Wariʔ; Oro Nao'": {
+    "Wari": {
         "id": "1237",
         "glottocode": "wari1268",
         "dialect": "Oro Nao",
@@ -65174,55 +65007,6 @@
             "i",
             "o",
             "u"
-        ]
-    },
-    "Mbodomo": {
-        "id": "1407",
-        "glottocode": "gbay1281",
-        "dialect": "NA",
-        "location": [
-            "4.800365",
-            "14.606865"
-        ],
-        "phonemes": [
-            "b",
-            "d",
-            "f",
-            "h",
-            "j",
-            "k",
-            "kp",
-            "l",
-            "m",
-            "mb",
-            "n",
-            "nd",
-            "nz",
-            "p",
-            "r",
-            "s",
-            "t",
-            "v",
-            "w",
-            "z",
-            "ŋ",
-            "ŋmɡb",
-            "ŋɡ",
-            "ɓ",
-            "ɗ",
-            "ɡ",
-            "ɡb",
-            "ɲ",
-            "˦",
-            "˧",
-            "˨",
-            "a",
-            "e",
-            "i",
-            "o",
-            "u",
-            "ɔ",
-            "ɛ"
         ]
     },
     "Mbuko": {
@@ -98211,38 +97995,6 @@
             "ə",
             "ɯ̽",
             "ʊ"
-        ]
-    },
-    "Dupaningan Agta": {
-        "id": "2253",
-        "glottocode": "dupa1235",
-        "dialect": "NA",
-        "location": [
-            "17.3748",
-            "122.188"
-        ],
-        "phonemes": [
-            "b",
-            "d",
-            "j",
-            "k",
-            "l",
-            "m",
-            "n",
-            "p",
-            "r",
-            "s",
-            "t",
-            "w",
-            "ŋ",
-            "ɡ",
-            "ʔ",
-            "ä",
-            "i",
-            "o",
-            "u",
-            "ə",
-            "ɛ"
         ]
     },
     "Dolgan": {
