@@ -190,9 +190,9 @@ async function showAnswer(){
                 (${location[0]}, ${location[1]})`;
         });
         let colors = new PinElement({
-            background: "#8BEA35",
-            borderColor: "#69B312",
-            glyphColor: "#69B312",
+            background: "#C835EA",
+            borderColor: "#8A12B3",
+            glyphColor: "#8A12B3",
         });
         correctMarker = new AdvancedMarkerElement({
             map: map,
