@@ -75,7 +75,11 @@ import Layout from '../layouts/Layout.astro';
 		<div id="right-half">
 			<p class="instructions">
 				Guess where on the map the language is spoken:
-				<button id="reveal">Guess</button>
+				<span id="righties">
+					<input id="preguess" placeholder="Or guess the language:"/>
+					<button id="reveal">Guess</button>
+				</span>
+				<br/>
 			</p>
 			<div id="map"></div>
 			<br>
@@ -132,7 +136,26 @@ import Layout from '../layouts/Layout.astro';
 		font-size: 16px;
 		transition-duration: 0.4s;
 	}
-	#new {
+	#righties {
+		display: flex;
+		max-width: 50%;
+		margin-left: auto;
+		float: right;
+	}
+	input {
+		background-color: rgb(var(--accent));
+		border: 3px solid rgb(var(--accent-dark));
+		border-radius: 6px;
+		height: 25px;
+		margin-right: 5px;
+		color: black;
+		float: none;
+	}
+	input::placeholder {
+		color: rgb(var(--accent-dark));
+	}
+	#new, #pghold {
+		margin-left: auto;
 		margin-right: 5px;
 	}
 	.legal-button:hover {

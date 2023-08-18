@@ -1,4 +1,4 @@
-import languages from './data/languages.json';
+import languages from './data/test_languages.json';
 import phones from './data/phonemes.json';
 import { Loader } from "@googlemaps/js-api-loader"
 
@@ -12,6 +12,7 @@ var result = document.getElementById("result");
 var reveal = document.getElementById("reveal");
 var score = document.getElementById("score");
 var newgame = document.getElementById("new");
+var input = document.getElementById("preguess");
 var name;
 var location;
 var latlng;
@@ -21,17 +22,6 @@ var tones = document.getElementById("tones")
 var points = 0;
 var round = 0;
 const earth = 6371;
-
-start.onclick = newLanguage;
-reveal.onclick = showAnswer;
-newgame.onclick = function (){
-    points = 0;
-    round = 0;
-    name = "";
-    location = [];
-    latlng = {};
-    newLanguage();
-}
 
 const loader = new Loader({
     apiKey: "AIzaSyC9UJUs0xwqKZ28p6MORyH4uVLpb-crauo",
@@ -84,6 +74,7 @@ function deg2rad(deg) {
 function newLanguage() {
     answer.textContent = "";
     result.textContent = "";
+    input.value = "";
     round += 1;
     score.innerHTML = `Round ${round} - Score: ${points}`;
     if (correctMarker != null) {
@@ -156,25 +147,47 @@ function compareStrings(s1, s2) {
     [s1, s2].forEach(string => {
         string = string.toLowerCase();
         string = string.normalize("NFD").replace(/[\u0300-\u036f]/g, "");
+        return string;
     })
-    return s1 == s2;
+    console.log(s1);
+    console.log(s2.split(" "));
+    console.log(s2.split("-"));
+    console.log((s2.split(" ").indexOf(s1) != -1) || (s2.split("-").indexOf(s1) != -1))
+    console.log("\n")
+    return (s1 == s2) || (s2.split(" ").indexOf(s1) != -1) || (s2.split("-").indexOf(s1) != -1);
 }
 
 async function showAnswer(){
     if (reveal.classList.contains('legal-button')) {
-        let guess = "";
-        let distance = getDistance(latlng, guessMarker.position);
-        let pointsThisRound = 5000;
-        pointsThisRound -= Math.floor(5000 * (distance / (earth * Math.PI)));
-        if (pointsThisRound >= 4900) {
-            guess = prompt("You got really close: try typing the name of the language you think it is for a chance to get all 5000 points!");
+        var pointsThisRound = 0;
+        var guess = input.value;
+        var hasGuessed = false;
+
+        if (guess != "") {
             if (guess == "" || guess == null) {
                 alert("Better luck next time...");
             } else if (compareStrings(guess, name)) {
-                alert("Holy shit you got it right");
+                alert("You got it exactly right!");
                 pointsThisRound = 5000;
             } else {
                 alert("Better luck next time...");
+            }
+            hasGuessed = true;
+        } if (guessMarker != null) {
+            var distance = getDistance(latlng, guessMarker.position);
+            var pointsThisRound = 5000;
+            pointsThisRound -= Math.floor(5000 * (distance / (earth * Math.PI)));
+
+            if (pointsThisRound >= 4900 && !hasGuessed) {
+                guess = prompt("You got really close: try typing the name of the language you think it is for a chance to get all 5000 points!");
+                if (guess == "" || guess == null) {
+                    alert("Better luck next time...");
+                } else if (compareStrings(guess, name)) {
+                    alert("You got it exactly right!");
+                    pointsThisRound = 5000;
+                } else {
+                    alert("Better luck next time...");
+                }
             }
         }
         
@@ -216,6 +229,25 @@ async function showAnswer(){
     }
 }
 
-document.addEventListener("keydown", showAnswer);
+document.addEventListener("keydown", function(e) {
+    if (e.keyCode == 32) {
+        showAnswer();
+    }
+});
+input.oninput = function(){
+    if (input.value != "") {
+        reveal.classList.add("legal-button");
+    } else reveal.classList.remove("legal-button");
+}
+start.onclick = newLanguage;
+reveal.onclick = showAnswer;
+newgame.onclick = function (){
+    points = 0;
+    round = 0;
+    name = "";
+    location = [];
+    latlng = {};
+    newLanguage();
+}
 
 newLanguage();
