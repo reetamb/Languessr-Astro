@@ -1,4 +1,4 @@
-import languages from './data/test_languages.json';
+import languages from './data/languages.json';
 import phones from './data/phonemes.json';
 import { Loader } from "@googlemaps/js-api-loader"
 
