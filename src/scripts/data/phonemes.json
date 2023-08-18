@@ -5978,7 +5978,7 @@
     "k\u01c0": {
         "type": "consonant",
         "place": "velar",
-        "manner": "plosive",
+        "manner": "non-pulmonic",
         "height": "",
         "backness": "",
         "tone": false,
@@ -5987,7 +5987,7 @@
     "k\u01c1": {
         "type": "consonant",
         "place": "velar",
-        "manner": "plosive",
+        "manner": "non-pulmonic",
         "height": "",
         "backness": "",
         "tone": false,
@@ -5996,7 +5996,7 @@
     "k\u01c3": {
         "type": "consonant",
         "place": "velar",
-        "manner": "plosive",
+        "manner": "non-pulmonic",
         "height": "",
         "backness": "",
         "tone": false,
@@ -8813,7 +8813,7 @@
     "k\u01c0\u0353": {
         "type": "consonant",
         "place": "velar",
-        "manner": "plosive",
+        "manner": "non-pulmonic",
         "height": "",
         "backness": "",
         "tone": false,
@@ -8831,7 +8831,7 @@
     "\u014b\u01c0\u0353": {
         "type": "consonant",
         "place": "velar",
-        "manner": "nasal",
+        "manner": "non-pulmonic",
         "height": "",
         "backness": "",
         "tone": false,
@@ -9074,7 +9074,7 @@
     "k\u01c0\u0353\u02b0": {
         "type": "consonant",
         "place": "velar",
-        "manner": "plosive",
+        "manner": "non-pulmonic",
         "height": "",
         "backness": "",
         "tone": false,
@@ -9083,7 +9083,7 @@
     "k\u01c1\u0353": {
         "type": "consonant",
         "place": "velar",
-        "manner": "plosive",
+        "manner": "non-pulmonic",
         "height": "",
         "backness": "",
         "tone": false,
@@ -9092,7 +9092,7 @@
     "k\u01c1\u0353\u02b0": {
         "type": "consonant",
         "place": "velar",
-        "manner": "plosive",
+        "manner": "non-pulmonic",
         "height": "",
         "backness": "",
         "tone": false,
@@ -9101,7 +9101,7 @@
     "k\u01c3\u0320": {
         "type": "consonant",
         "place": "velar",
-        "manner": "plosive",
+        "manner": "non-pulmonic",
         "height": "",
         "backness": "",
         "tone": false,
@@ -9110,7 +9110,7 @@
     "k\u01c3\u0320\u02b0": {
         "type": "consonant",
         "place": "velar",
-        "manner": "plosive",
+        "manner": "non-pulmonic",
         "height": "",
         "backness": "",
         "tone": false,
@@ -9119,7 +9119,7 @@
     "\u014b\u01c1\u0353": {
         "type": "consonant",
         "place": "velar",
-        "manner": "nasal",
+        "manner": "non-pulmonic",
         "height": "",
         "backness": "",
         "tone": false,
@@ -9128,7 +9128,7 @@
     "\u014b\u01c3\u0320": {
         "type": "consonant",
         "place": "velar",
-        "manner": "nasal",
+        "manner": "non-pulmonic",
         "height": "",
         "backness": "",
         "tone": false,
@@ -9137,7 +9137,7 @@
     "\u014b\u0325\u01c0\u0353\u02c0": {
         "type": "consonant",
         "place": "velar",
-        "manner": "nasal",
+        "manner": "non-pulmonic",
         "height": "",
         "backness": "",
         "tone": false,
@@ -9146,7 +9146,7 @@
     "\u014b\u0325\u01c1\u0353\u02c0": {
         "type": "consonant",
         "place": "velar",
-        "manner": "nasal",
+        "manner": "non-pulmonic",
         "height": "",
         "backness": "",
         "tone": false,
@@ -9155,7 +9155,7 @@
     "\u014b\u0325\u01c3\u0320\u02c0": {
         "type": "consonant",
         "place": "velar",
-        "manner": "nasal",
+        "manner": "non-pulmonic",
         "height": "",
         "backness": "",
         "tone": false,
@@ -9866,7 +9866,7 @@
     "k\u01c0\u0353x": {
         "type": "consonant",
         "place": "velar",
-        "manner": "plosive",
+        "manner": "non-pulmonic",
         "height": "",
         "backness": "",
         "tone": false,
@@ -9875,7 +9875,7 @@
     "k\u01c2": {
         "type": "consonant",
         "place": "velar",
-        "manner": "plosive",
+        "manner": "non-pulmonic",
         "height": "",
         "backness": "",
         "tone": false,
@@ -9884,7 +9884,7 @@
     "k\u01c2x": {
         "type": "consonant",
         "place": "velar",
-        "manner": "plosive",
+        "manner": "non-pulmonic",
         "height": "",
         "backness": "",
         "tone": false,
@@ -9893,7 +9893,7 @@
     "k\u01c2\u02b0": {
         "type": "consonant",
         "place": "velar",
-        "manner": "plosive",
+        "manner": "non-pulmonic",
         "height": "",
         "backness": "",
         "tone": false,
@@ -9902,7 +9902,7 @@
     "k\u01c2\u0353\u02e1": {
         "type": "consonant",
         "place": "velar",
-        "manner": "plosive",
+        "manner": "non-pulmonic",
         "height": "",
         "backness": "",
         "tone": false,
@@ -9911,7 +9911,7 @@
     "k\u01c2\u0353\u02e1x": {
         "type": "consonant",
         "place": "velar",
-        "manner": "plosive",
+        "manner": "non-pulmonic",
         "height": "",
         "backness": "",
         "tone": false,
@@ -9920,7 +9920,7 @@
     "k\u01c2\u0353\u02e1\u02b0": {
         "type": "consonant",
         "place": "velar",
-        "manner": "plosive",
+        "manner": "non-pulmonic",
         "height": "",
         "backness": "",
         "tone": false,
@@ -9929,7 +9929,7 @@
     "k\u01c3x": {
         "type": "consonant",
         "place": "velar",
-        "manner": "plosive",
+        "manner": "non-pulmonic",
         "height": "",
         "backness": "",
         "tone": false,
@@ -9938,7 +9938,7 @@
     "k\u01c3\u02b0": {
         "type": "consonant",
         "place": "velar",
-        "manner": "plosive",
+        "manner": "non-pulmonic",
         "height": "",
         "backness": "",
         "tone": false,
@@ -9974,7 +9974,7 @@
     "\u014b\u01c2": {
         "type": "consonant",
         "place": "velar",
-        "manner": "nasal",
+        "manner": "non-pulmonic",
         "height": "",
         "backness": "",
         "tone": false,
@@ -9983,7 +9983,7 @@
     "\u014b\u01c2\u0353\u02e1": {
         "type": "consonant",
         "place": "velar",
-        "manner": "nasal",
+        "manner": "non-pulmonic",
         "height": "",
         "backness": "",
         "tone": false,
@@ -9992,7 +9992,7 @@
     "\u014b\u01c3": {
         "type": "consonant",
         "place": "velar",
-        "manner": "nasal",
+        "manner": "non-pulmonic",
         "height": "",
         "backness": "",
         "tone": false,
@@ -10010,7 +10010,7 @@
     "\u014b\u0324\u01c0\u0353": {
         "type": "consonant",
         "place": "velar",
-        "manner": "nasal",
+        "manner": "non-pulmonic",
         "height": "",
         "backness": "",
         "tone": false,
@@ -10019,7 +10019,7 @@
     "\u014b\u0324\u01c2": {
         "type": "consonant",
         "place": "velar",
-        "manner": "nasal",
+        "manner": "non-pulmonic",
         "height": "",
         "backness": "",
         "tone": false,
@@ -10028,7 +10028,7 @@
     "\u014b\u0324\u01c2\u0353\u02e1": {
         "type": "consonant",
         "place": "velar",
-        "manner": "nasal",
+        "manner": "non-pulmonic",
         "height": "",
         "backness": "",
         "tone": false,
@@ -10037,7 +10037,7 @@
     "\u014b\u0324\u01c3": {
         "type": "consonant",
         "place": "velar",
-        "manner": "nasal",
+        "manner": "non-pulmonic",
         "height": "",
         "backness": "",
         "tone": false,
@@ -10046,7 +10046,7 @@
     "\u014b\u0325\u01c0\u0353x\u02c0": {
         "type": "consonant",
         "place": "velar",
-        "manner": "nasal",
+        "manner": "non-pulmonic",
         "height": "",
         "backness": "",
         "tone": false,
@@ -10055,7 +10055,7 @@
     "\u014b\u0325\u01c0\u0353\u02b0": {
         "type": "consonant",
         "place": "velar",
-        "manner": "nasal",
+        "manner": "non-pulmonic",
         "height": "",
         "backness": "",
         "tone": false,
@@ -10064,7 +10064,7 @@
     "\u014b\u0325\u01c2x\u02c0": {
         "type": "consonant",
         "place": "velar",
-        "manner": "nasal",
+        "manner": "non-pulmonic",
         "height": "",
         "backness": "",
         "tone": false,
@@ -10073,7 +10073,7 @@
     "\u014b\u0325\u01c2\u02b0": {
         "type": "consonant",
         "place": "velar",
-        "manner": "nasal",
+        "manner": "non-pulmonic",
         "height": "",
         "backness": "",
         "tone": false,
@@ -10082,7 +10082,7 @@
     "\u014b\u0325\u01c2\u02c0": {
         "type": "consonant",
         "place": "velar",
-        "manner": "nasal",
+        "manner": "non-pulmonic",
         "height": "",
         "backness": "",
         "tone": false,
@@ -10091,7 +10091,7 @@
     "\u014b\u0325\u01c2\u0353\u02e1x\u02c0": {
         "type": "consonant",
         "place": "velar",
-        "manner": "nasal",
+        "manner": "non-pulmonic",
         "height": "",
         "backness": "",
         "tone": false,
@@ -10100,7 +10100,7 @@
     "\u014b\u0325\u01c2\u0353\u02e1\u02b0": {
         "type": "consonant",
         "place": "velar",
-        "manner": "nasal",
+        "manner": "non-pulmonic",
         "height": "",
         "backness": "",
         "tone": false,
@@ -10109,7 +10109,7 @@
     "\u014b\u0325\u01c2\u0353\u02e1\u02c0": {
         "type": "consonant",
         "place": "velar",
-        "manner": "nasal",
+        "manner": "non-pulmonic",
         "height": "",
         "backness": "",
         "tone": false,
@@ -10118,7 +10118,7 @@
     "\u014b\u0325\u01c3": {
         "type": "consonant",
         "place": "velar",
-        "manner": "nasal",
+        "manner": "non-pulmonic",
         "height": "",
         "backness": "",
         "tone": false,
@@ -10127,7 +10127,7 @@
     "\u014b\u0325\u01c3\u02c0": {
         "type": "consonant",
         "place": "velar",
-        "manner": "nasal",
+        "manner": "non-pulmonic",
         "height": "",
         "backness": "",
         "tone": false,
@@ -10136,7 +10136,7 @@
     "\u014b\u0325\u01c3\u02e0\u02c0": {
         "type": "consonant",
         "place": "velar",
-        "manner": "nasal",
+        "manner": "non-pulmonic",
         "height": "",
         "backness": "",
         "tone": false,
@@ -10145,7 +10145,7 @@
     "\u0261\u01c0\u0353": {
         "type": "consonant",
         "place": "velar",
-        "manner": "plosive",
+        "manner": "non-pulmonic",
         "height": "",
         "backness": "",
         "tone": false,
@@ -10154,7 +10154,7 @@
     "\u0261\u01c0\u0353x": {
         "type": "consonant",
         "place": "velar",
-        "manner": "plosive",
+        "manner": "non-pulmonic",
         "height": "",
         "backness": "",
         "tone": false,
@@ -10163,7 +10163,7 @@
     "\u0261\u01c2": {
         "type": "consonant",
         "place": "velar",
-        "manner": "plosive",
+        "manner": "non-pulmonic",
         "height": "",
         "backness": "",
         "tone": false,
@@ -10172,7 +10172,7 @@
     "\u0261\u01c2x": {
         "type": "consonant",
         "place": "velar",
-        "manner": "plosive",
+        "manner": "non-pulmonic",
         "height": "",
         "backness": "",
         "tone": false,
@@ -10181,7 +10181,7 @@
     "\u0261\u01c2\u0353\u02e1": {
         "type": "consonant",
         "place": "velar",
-        "manner": "plosive",
+        "manner": "non-pulmonic",
         "height": "",
         "backness": "",
         "tone": false,
@@ -10190,7 +10190,7 @@
     "\u0261\u01c2\u0353\u02e1x": {
         "type": "consonant",
         "place": "velar",
-        "manner": "plosive",
+        "manner": "non-pulmonic",
         "height": "",
         "backness": "",
         "tone": false,
@@ -10199,7 +10199,7 @@
     "\u0261\u01c3": {
         "type": "consonant",
         "place": "velar",
-        "manner": "plosive",
+        "manner": "non-pulmonic",
         "height": "",
         "backness": "",
         "tone": false,
@@ -10208,7 +10208,7 @@
     "\u0261\u01c3x": {
         "type": "consonant",
         "place": "velar",
-        "manner": "plosive",
+        "manner": "non-pulmonic",
         "height": "",
         "backness": "",
         "tone": false,
@@ -10226,7 +10226,7 @@
     "\u0261\u0324\u01c0\u0353": {
         "type": "consonant",
         "place": "velar",
-        "manner": "plosive",
+        "manner": "non-pulmonic",
         "height": "",
         "backness": "",
         "tone": false,
@@ -10235,7 +10235,7 @@
     "\u0261\u0324\u01c2": {
         "type": "consonant",
         "place": "velar",
-        "manner": "plosive",
+        "manner": "non-pulmonic",
         "height": "",
         "backness": "",
         "tone": false,
@@ -10244,7 +10244,7 @@
     "\u0261\u0324\u01c2\u0353\u02e1": {
         "type": "consonant",
         "place": "velar",
-        "manner": "plosive",
+        "manner": "non-pulmonic",
         "height": "",
         "backness": "",
         "tone": false,
@@ -10253,7 +10253,7 @@
     "\u0261\u0324\u01c3": {
         "type": "consonant",
         "place": "velar",
-        "manner": "plosive",
+        "manner": "non-pulmonic",
         "height": "",
         "backness": "",
         "tone": false,
@@ -10262,7 +10262,7 @@
     "\u0261\u0330\u01c0\u0353x": {
         "type": "consonant",
         "place": "velar",
-        "manner": "plosive",
+        "manner": "non-pulmonic",
         "height": "",
         "backness": "",
         "tone": false,
@@ -10271,7 +10271,7 @@
     "\u0261\u0330\u01c2x": {
         "type": "consonant",
         "place": "velar",
-        "manner": "plosive",
+        "manner": "non-pulmonic",
         "height": "",
         "backness": "",
         "tone": false,
@@ -10280,7 +10280,7 @@
     "\u0261\u0330\u01c2\u0353\u02e1x": {
         "type": "consonant",
         "place": "velar",
-        "manner": "plosive",
+        "manner": "non-pulmonic",
         "height": "",
         "backness": "",
         "tone": false,
@@ -10289,7 +10289,7 @@
     "\u0261\u0330\u01c3x": {
         "type": "consonant",
         "place": "velar",
-        "manner": "plosive",
+        "manner": "non-pulmonic",
         "height": "",
         "backness": "",
         "tone": false,
@@ -10667,7 +10667,7 @@
     "k\u01c0\u0353\u02e0\u02b0": {
         "type": "consonant",
         "place": "velar",
-        "manner": "plosive",
+        "manner": "non-pulmonic",
         "height": "",
         "backness": "",
         "tone": false,
@@ -10676,7 +10676,7 @@
     "k\u01c1\u0353x\u02b0": {
         "type": "consonant",
         "place": "velar",
-        "manner": "plosive",
+        "manner": "non-pulmonic",
         "height": "",
         "backness": "",
         "tone": false,
@@ -10685,7 +10685,7 @@
     "k\u01c3x\u02b0": {
         "type": "consonant",
         "place": "velar",
-        "manner": "plosive",
+        "manner": "non-pulmonic",
         "height": "",
         "backness": "",
         "tone": false,
@@ -10694,7 +10694,7 @@
     "k\u01c3\u0320x\u02b0": {
         "type": "consonant",
         "place": "velar",
-        "manner": "plosive",
+        "manner": "non-pulmonic",
         "height": "",
         "backness": "",
         "tone": false,
@@ -10703,7 +10703,7 @@
     "\u014b\u0325\u01c1\u0353\u02b0": {
         "type": "consonant",
         "place": "velar",
-        "manner": "nasal",
+        "manner": "non-pulmonic",
         "height": "",
         "backness": "",
         "tone": false,
@@ -10712,7 +10712,7 @@
     "\u014b\u0325\u01c3\u0320\u02b0": {
         "type": "consonant",
         "place": "velar",
-        "manner": "nasal",
+        "manner": "non-pulmonic",
         "height": "",
         "backness": "",
         "tone": false,
@@ -11225,7 +11225,7 @@
     "k\u01c0\u0353\u02c0": {
         "type": "consonant",
         "place": "velar",
-        "manner": "plosive",
+        "manner": "non-pulmonic",
         "height": "",
         "backness": "",
         "tone": false,
@@ -11234,7 +11234,7 @@
     "k\u01c1\u0353\u02c0": {
         "type": "consonant",
         "place": "velar",
-        "manner": "plosive",
+        "manner": "non-pulmonic",
         "height": "",
         "backness": "",
         "tone": false,
@@ -11243,7 +11243,7 @@
     "k\u01c3\u0320\u02c0": {
         "type": "consonant",
         "place": "velar",
-        "manner": "plosive",
+        "manner": "non-pulmonic",
         "height": "",
         "backness": "",
         "tone": false,
@@ -11252,7 +11252,7 @@
     "\u0261\u01c1\u0353": {
         "type": "consonant",
         "place": "velar",
-        "manner": "plosive",
+        "manner": "non-pulmonic",
         "height": "",
         "backness": "",
         "tone": false,
@@ -11261,7 +11261,7 @@
     "\u0261\u01c3\u0320": {
         "type": "consonant",
         "place": "velar",
-        "manner": "plosive",
+        "manner": "non-pulmonic",
         "height": "",
         "backness": "",
         "tone": false,
@@ -11837,7 +11837,7 @@
     "k\u01c3\u0353": {
         "type": "consonant",
         "place": "velar",
-        "manner": "plosive",
+        "manner": "non-pulmonic",
         "height": "",
         "backness": "",
         "tone": false,
@@ -12701,7 +12701,7 @@
     "k\u01c0\u02b0": {
         "type": "consonant",
         "place": "velar",
-        "manner": "plosive",
+        "manner": "non-pulmonic",
         "height": "",
         "backness": "",
         "tone": false,
@@ -12710,7 +12710,7 @@
     "\u0261\u01c0": {
         "type": "consonant",
         "place": "velar",
-        "manner": "plosive",
+        "manner": "non-pulmonic",
         "height": "",
         "backness": "",
         "tone": false,
@@ -12764,7 +12764,7 @@
     "k\u01c0\u02b7": {
         "type": "consonant",
         "place": "velar",
-        "manner": "plosive",
+        "manner": "non-pulmonic",
         "height": "",
         "backness": "",
         "tone": false,
@@ -12773,7 +12773,7 @@
     "k\u01c0\u02b7\u02b0": {
         "type": "consonant",
         "place": "velar",
-        "manner": "plosive",
+        "manner": "non-pulmonic",
         "height": "",
         "backness": "",
         "tone": false,
@@ -12782,7 +12782,7 @@
     "k\u01c0\u032a": {
         "type": "consonant",
         "place": "velar",
-        "manner": "plosive",
+        "manner": "non-pulmonic",
         "height": "",
         "backness": "",
         "tone": false,
@@ -12791,7 +12791,7 @@
     "k\u01c3\u032a": {
         "type": "consonant",
         "place": "velar",
-        "manner": "plosive",
+        "manner": "non-pulmonic",
         "height": "",
         "backness": "",
         "tone": false,
@@ -15545,7 +15545,7 @@
     "\u0272\u0284": {
         "type": "consonant",
         "place": "palatal",
-        "manner": "nasal",
+        "manner": "non-pulmonic",
         "height": "",
         "backness": "",
         "tone": false,
@@ -16472,7 +16472,7 @@
     "k\u01c1\u02b0": {
         "type": "consonant",
         "place": "velar",
-        "manner": "plosive",
+        "manner": "non-pulmonic",
         "height": "",
         "backness": "",
         "tone": false,
@@ -16607,7 +16607,7 @@
     "\u014b\u01c0": {
         "type": "consonant",
         "place": "velar",
-        "manner": "nasal",
+        "manner": "non-pulmonic",
         "height": "",
         "backness": "",
         "tone": false,
@@ -16616,7 +16616,7 @@
     "\u014b\u01c1": {
         "type": "consonant",
         "place": "velar",
-        "manner": "nasal",
+        "manner": "non-pulmonic",
         "height": "",
         "backness": "",
         "tone": false,
@@ -16643,7 +16643,7 @@
     "\u014b\u0324\u01c0": {
         "type": "consonant",
         "place": "velar",
-        "manner": "nasal",
+        "manner": "non-pulmonic",
         "height": "",
         "backness": "",
         "tone": false,
@@ -16652,7 +16652,7 @@
     "\u014b\u0324\u01c1": {
         "type": "consonant",
         "place": "velar",
-        "manner": "nasal",
+        "manner": "non-pulmonic",
         "height": "",
         "backness": "",
         "tone": false,
@@ -16679,7 +16679,7 @@
     "\u0261\u0324\u01c0": {
         "type": "consonant",
         "place": "velar",
-        "manner": "plosive",
+        "manner": "non-pulmonic",
         "height": "",
         "backness": "",
         "tone": false,
@@ -16688,7 +16688,7 @@
     "\u0261\u0324\u01c1": {
         "type": "consonant",
         "place": "velar",
-        "manner": "plosive",
+        "manner": "non-pulmonic",
         "height": "",
         "backness": "",
         "tone": false,
@@ -16949,7 +16949,7 @@
     "m\u0253": {
         "type": "consonant",
         "place": "labial",
-        "manner": "nasal",
+        "manner": "non-pulmonic",
         "height": "",
         "backness": "",
         "tone": false,
@@ -16958,7 +16958,7 @@
     "n\u0257": {
         "type": "consonant",
         "place": "coronal",
-        "manner": "nasal",
+        "manner": "non-pulmonic",
         "height": "",
         "backness": "",
         "tone": false,
@@ -16967,7 +16967,7 @@
     "\u0261\u0253": {
         "type": "consonant",
         "place": "velar",
-        "manner": "plosive",
+        "manner": "non-pulmonic",
         "height": "",
         "backness": "",
         "tone": false,
@@ -17030,7 +17030,7 @@
     "k\u01c0h": {
         "type": "consonant",
         "place": "velar",
-        "manner": "plosive",
+        "manner": "non-pulmonic",
         "height": "",
         "backness": "",
         "tone": false,
@@ -17048,7 +17048,7 @@
     "k\u01c0x": {
         "type": "consonant",
         "place": "velar",
-        "manner": "plosive",
+        "manner": "non-pulmonic",
         "height": "",
         "backness": "",
         "tone": false,
@@ -17057,7 +17057,7 @@
     "k\u01c0\u0294": {
         "type": "consonant",
         "place": "velar",
-        "manner": "plosive",
+        "manner": "non-pulmonic",
         "height": "",
         "backness": "",
         "tone": false,
@@ -17066,7 +17066,7 @@
     "k\u01c1h": {
         "type": "consonant",
         "place": "velar",
-        "manner": "plosive",
+        "manner": "non-pulmonic",
         "height": "",
         "backness": "",
         "tone": false,
@@ -17084,7 +17084,7 @@
     "k\u01c1x": {
         "type": "consonant",
         "place": "velar",
-        "manner": "plosive",
+        "manner": "non-pulmonic",
         "height": "",
         "backness": "",
         "tone": false,
@@ -17093,7 +17093,7 @@
     "k\u01c1\u0294": {
         "type": "consonant",
         "place": "velar",
-        "manner": "plosive",
+        "manner": "non-pulmonic",
         "height": "",
         "backness": "",
         "tone": false,
@@ -17102,7 +17102,7 @@
     "k\u01c2h": {
         "type": "consonant",
         "place": "velar",
-        "manner": "plosive",
+        "manner": "non-pulmonic",
         "height": "",
         "backness": "",
         "tone": false,
@@ -17120,7 +17120,7 @@
     "k\u01c2\u0294": {
         "type": "consonant",
         "place": "velar",
-        "manner": "plosive",
+        "manner": "non-pulmonic",
         "height": "",
         "backness": "",
         "tone": false,
@@ -17129,7 +17129,7 @@
     "k\u01c3h": {
         "type": "consonant",
         "place": "velar",
-        "manner": "plosive",
+        "manner": "non-pulmonic",
         "height": "",
         "backness": "",
         "tone": false,
@@ -17147,7 +17147,7 @@
     "k\u01c3\u0294": {
         "type": "consonant",
         "place": "velar",
-        "manner": "plosive",
+        "manner": "non-pulmonic",
         "height": "",
         "backness": "",
         "tone": false,
@@ -17156,7 +17156,7 @@
     "k\u0298": {
         "type": "consonant",
         "place": "velar",
-        "manner": "plosive",
+        "manner": "non-pulmonic",
         "height": "",
         "backness": "",
         "tone": false,
@@ -17165,7 +17165,7 @@
     "k\u0298h": {
         "type": "consonant",
         "place": "velar",
-        "manner": "plosive",
+        "manner": "non-pulmonic",
         "height": "",
         "backness": "",
         "tone": false,
@@ -17183,7 +17183,7 @@
     "k\u0298x": {
         "type": "consonant",
         "place": "velar",
-        "manner": "plosive",
+        "manner": "non-pulmonic",
         "height": "",
         "backness": "",
         "tone": false,
@@ -17192,7 +17192,7 @@
     "k\u0298\u0294": {
         "type": "consonant",
         "place": "velar",
-        "manner": "plosive",
+        "manner": "non-pulmonic",
         "height": "",
         "backness": "",
         "tone": false,
@@ -17201,7 +17201,7 @@
     "k\u0298\u02b0": {
         "type": "consonant",
         "place": "velar",
-        "manner": "plosive",
+        "manner": "non-pulmonic",
         "height": "",
         "backness": "",
         "tone": false,
@@ -17219,7 +17219,7 @@
     "q\u01c0": {
         "type": "consonant",
         "place": "laryngeal",
-        "manner": "plosive",
+        "manner": "non-pulmonic",
         "height": "",
         "backness": "",
         "tone": false,
@@ -17237,7 +17237,7 @@
     "q\u01c1": {
         "type": "consonant",
         "place": "laryngeal",
-        "manner": "plosive",
+        "manner": "non-pulmonic",
         "height": "",
         "backness": "",
         "tone": false,
@@ -17255,7 +17255,7 @@
     "q\u01c2": {
         "type": "consonant",
         "place": "laryngeal",
-        "manner": "plosive",
+        "manner": "non-pulmonic",
         "height": "",
         "backness": "",
         "tone": false,
@@ -17273,7 +17273,7 @@
     "q\u01c3": {
         "type": "consonant",
         "place": "laryngeal",
-        "manner": "plosive",
+        "manner": "non-pulmonic",
         "height": "",
         "backness": "",
         "tone": false,
@@ -17291,7 +17291,7 @@
     "q\u0298": {
         "type": "consonant",
         "place": "laryngeal",
-        "manner": "plosive",
+        "manner": "non-pulmonic",
         "height": "",
         "backness": "",
         "tone": false,
@@ -17336,7 +17336,7 @@
     "\u014b\u0298": {
         "type": "consonant",
         "place": "velar",
-        "manner": "nasal",
+        "manner": "non-pulmonic",
         "height": "",
         "backness": "",
         "tone": false,
@@ -17345,7 +17345,7 @@
     "\u014b\u030a\u01c0": {
         "type": "consonant",
         "place": "velar",
-        "manner": "nasal",
+        "manner": "non-pulmonic",
         "height": "",
         "backness": "",
         "tone": false,
@@ -17354,7 +17354,7 @@
     "\u014b\u030a\u01c1": {
         "type": "consonant",
         "place": "velar",
-        "manner": "nasal",
+        "manner": "non-pulmonic",
         "height": "",
         "backness": "",
         "tone": false,
@@ -17363,7 +17363,7 @@
     "\u014b\u030a\u01c2": {
         "type": "consonant",
         "place": "velar",
-        "manner": "nasal",
+        "manner": "non-pulmonic",
         "height": "",
         "backness": "",
         "tone": false,
@@ -17372,7 +17372,7 @@
     "\u014b\u030a\u01c3": {
         "type": "consonant",
         "place": "velar",
-        "manner": "nasal",
+        "manner": "non-pulmonic",
         "height": "",
         "backness": "",
         "tone": false,
@@ -17381,7 +17381,7 @@
     "\u014b\u030a\u0298": {
         "type": "consonant",
         "place": "velar",
-        "manner": "nasal",
+        "manner": "non-pulmonic",
         "height": "",
         "backness": "",
         "tone": false,
@@ -17399,7 +17399,7 @@
     "\u0261\u01c0k\u02b0": {
         "type": "consonant",
         "place": "velar",
-        "manner": "plosive",
+        "manner": "non-pulmonic",
         "height": "",
         "backness": "",
         "tone": false,
@@ -17408,7 +17408,7 @@
     "\u0261\u01c0x": {
         "type": "consonant",
         "place": "velar",
-        "manner": "plosive",
+        "manner": "non-pulmonic",
         "height": "",
         "backness": "",
         "tone": false,
@@ -17417,7 +17417,7 @@
     "\u0261\u01c1": {
         "type": "consonant",
         "place": "velar",
-        "manner": "plosive",
+        "manner": "non-pulmonic",
         "height": "",
         "backness": "",
         "tone": false,
@@ -17435,7 +17435,7 @@
     "\u0261\u01c1k\u02b0": {
         "type": "consonant",
         "place": "velar",
-        "manner": "plosive",
+        "manner": "non-pulmonic",
         "height": "",
         "backness": "",
         "tone": false,
@@ -17444,7 +17444,7 @@
     "\u0261\u01c1x": {
         "type": "consonant",
         "place": "velar",
-        "manner": "plosive",
+        "manner": "non-pulmonic",
         "height": "",
         "backness": "",
         "tone": false,
@@ -17462,7 +17462,7 @@
     "\u0261\u01c2k\u02b0": {
         "type": "consonant",
         "place": "velar",
-        "manner": "plosive",
+        "manner": "non-pulmonic",
         "height": "",
         "backness": "",
         "tone": false,
@@ -17480,7 +17480,7 @@
     "\u0261\u01c3k\u02b0": {
         "type": "consonant",
         "place": "velar",
-        "manner": "plosive",
+        "manner": "non-pulmonic",
         "height": "",
         "backness": "",
         "tone": false,
@@ -17489,7 +17489,7 @@
     "\u0261\u0298": {
         "type": "consonant",
         "place": "velar",
-        "manner": "plosive",
+        "manner": "non-pulmonic",
         "height": "",
         "backness": "",
         "tone": false,
@@ -17507,7 +17507,7 @@
     "\u0261\u0298k\u02b0": {
         "type": "consonant",
         "place": "velar",
-        "manner": "plosive",
+        "manner": "non-pulmonic",
         "height": "",
         "backness": "",
         "tone": false,
@@ -17516,7 +17516,7 @@
     "\u0261\u0298x": {
         "type": "consonant",
         "place": "velar",
-        "manner": "plosive",
+        "manner": "non-pulmonic",
         "height": "",
         "backness": "",
         "tone": false,
@@ -17534,7 +17534,7 @@
     "\u0262\u01c0": {
         "type": "consonant",
         "place": "laryngeal",
-        "manner": "plosive",
+        "manner": "non-pulmonic",
         "height": "",
         "backness": "",
         "tone": false,
@@ -17543,7 +17543,7 @@
     "\u0262\u01c0q\u02b0": {
         "type": "consonant",
         "place": "laryngeal",
-        "manner": "plosive",
+        "manner": "non-pulmonic",
         "height": "",
         "backness": "",
         "tone": false,
@@ -17552,7 +17552,7 @@
     "\u0262\u01c1": {
         "type": "consonant",
         "place": "laryngeal",
-        "manner": "plosive",
+        "manner": "non-pulmonic",
         "height": "",
         "backness": "",
         "tone": false,
@@ -17561,7 +17561,7 @@
     "\u0262\u01c1q\u02b0": {
         "type": "consonant",
         "place": "laryngeal",
-        "manner": "plosive",
+        "manner": "non-pulmonic",
         "height": "",
         "backness": "",
         "tone": false,
@@ -17570,7 +17570,7 @@
     "\u0262\u01c2": {
         "type": "consonant",
         "place": "laryngeal",
-        "manner": "plosive",
+        "manner": "non-pulmonic",
         "height": "",
         "backness": "",
         "tone": false,
@@ -17579,7 +17579,7 @@
     "\u0262\u01c3": {
         "type": "consonant",
         "place": "laryngeal",
-        "manner": "plosive",
+        "manner": "non-pulmonic",
         "height": "",
         "backness": "",
         "tone": false,
@@ -17588,7 +17588,7 @@
     "\u0262\u01c3q\u02b0": {
         "type": "consonant",
         "place": "laryngeal",
-        "manner": "plosive",
+        "manner": "non-pulmonic",
         "height": "",
         "backness": "",
         "tone": false,
@@ -17597,7 +17597,7 @@
     "\u0262\u0298": {
         "type": "consonant",
         "place": "laryngeal",
-        "manner": "plosive",
+        "manner": "non-pulmonic",
         "height": "",
         "backness": "",
         "tone": false,
@@ -17615,7 +17615,7 @@
     "\u0294\u014b\u01c0": {
         "type": "consonant",
         "place": "laryngeal",
-        "manner": "plosive",
+        "manner": "non-pulmonic",
         "height": "",
         "backness": "",
         "tone": false,
@@ -17624,7 +17624,7 @@
     "\u0294\u014b\u01c1": {
         "type": "consonant",
         "place": "laryngeal",
-        "manner": "plosive",
+        "manner": "non-pulmonic",
         "height": "",
         "backness": "",
         "tone": false,
@@ -17633,7 +17633,7 @@
     "\u0294\u014b\u01c2": {
         "type": "consonant",
         "place": "laryngeal",
-        "manner": "plosive",
+        "manner": "non-pulmonic",
         "height": "",
         "backness": "",
         "tone": false,
@@ -17642,7 +17642,7 @@
     "\u0294\u014b\u01c3": {
         "type": "consonant",
         "place": "laryngeal",
-        "manner": "plosive",
+        "manner": "non-pulmonic",
         "height": "",
         "backness": "",
         "tone": false,
@@ -17651,7 +17651,7 @@
     "\u0294\u014b\u0298": {
         "type": "consonant",
         "place": "laryngeal",
-        "manner": "plosive",
+        "manner": "non-pulmonic",
         "height": "",
         "backness": "",
         "tone": false,
@@ -17885,7 +17885,7 @@
     "\u014b\u01c0\u02b1": {
         "type": "consonant",
         "place": "velar",
-        "manner": "nasal",
+        "manner": "non-pulmonic",
         "height": "",
         "backness": "",
         "tone": false,
@@ -17894,7 +17894,7 @@
     "\u014b\u01c3\u02b1": {
         "type": "consonant",
         "place": "velar",
-        "manner": "nasal",
+        "manner": "non-pulmonic",
         "height": "",
         "backness": "",
         "tone": false,
@@ -17930,7 +17930,7 @@
     "\u0261\u01c0\u02b1": {
         "type": "consonant",
         "place": "velar",
-        "manner": "plosive",
+        "manner": "non-pulmonic",
         "height": "",
         "backness": "",
         "tone": false,
@@ -17957,7 +17957,7 @@
     "\u0261\u01c3\u02b1": {
         "type": "consonant",
         "place": "velar",
-        "manner": "plosive",
+        "manner": "non-pulmonic",
         "height": "",
         "backness": "",
         "tone": false,
@@ -18020,7 +18020,7 @@
     "\u02bc\u014b\u01c0": {
         "type": "consonant",
         "place": "velar",
-        "manner": "nasal",
+        "manner": "non-pulmonic",
         "height": "",
         "backness": "",
         "tone": false,
@@ -18029,7 +18029,7 @@
     "\u02bc\u014b\u01c3": {
         "type": "consonant",
         "place": "velar",
-        "manner": "nasal",
+        "manner": "non-pulmonic",
         "height": "",
         "backness": "",
         "tone": false,

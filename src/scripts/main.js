@@ -11,6 +11,7 @@ var answer = document.getElementById("answer");
 var result = document.getElementById("result");
 var reveal = document.getElementById("reveal");
 var score = document.getElementById("score");
+var newgame = document.getElementById("new");
 var name;
 var location;
 var latlng;
@@ -18,10 +19,19 @@ var consonants = document.getElementById("consonants");
 var vowels = document.getElementById("vowels");
 var tones = document.getElementById("tones")
 var points = 0;
+var round = 0;
 const earth = 6371;
 
 start.onclick = newLanguage;
 reveal.onclick = showAnswer;
+newgame.onclick = function (){
+    points = 0;
+    round = 0;
+    name = "";
+    location = [];
+    latlng = {};
+    newLanguage();
+}
 
 const loader = new Loader({
     apiKey: "AIzaSyC9UJUs0xwqKZ28p6MORyH4uVLpb-crauo",
@@ -74,6 +84,8 @@ function deg2rad(deg) {
 function newLanguage() {
     answer.textContent = "";
     result.textContent = "";
+    round += 1;
+    score.innerHTML = `Round ${round} - Score: ${points}`;
     if (correctMarker != null) {
         correctMarker.setMap(null);
         correctMarker = null;
@@ -140,16 +152,39 @@ function newLanguage() {
     })
 };
 // API-KEY: AIzaSyC9UJUs0xwqKZ28p6MORyH4uVLpb-crauo
+function compareStrings(s1, s2) {
+    [s1, s2].forEach(string => {
+        string = string.toLowerCase();
+        string = string.normalize("NFD").replace(/[\u0300-\u036f]/g, "");
+    })
+    return s1 == s2;
+}
 
 async function showAnswer(){
     if (reveal.classList.contains('legal-button')) {
-
+        let guess = "";
+        let distance = getDistance(latlng, guessMarker.position);
+        let pointsThisRound = 5000;
+        pointsThisRound -= Math.floor(5000 * (distance / (earth * Math.PI)));
+        if (pointsThisRound >= 4900) {
+            guess = prompt("You got really close: try typing the name of the language you think it is for a chance to get all 5000 points!");
+            if (guess == "" || guess == null) {
+                alert("Better luck next time...");
+            } else if (compareStrings(guess, name)) {
+                alert("Holy shit you got it right");
+                pointsThisRound = 5000;
+            } else {
+                alert("Better luck next time...");
+            }
+        }
+        
         const { AdvancedMarkerElement } = await google.maps.importLibrary("marker");
 
+        answer.textContent = `The language is ${name}!`
         fetch(`https://maps.googleapis.com/maps/api/geocode/json?latlng=${location}&key=AIzaSyC9UJUs0xwqKZ28p6MORyH4uVLpb-crauo`)
             .then(resp => resp.json())
             .then((data) => {
-                answer.textContent = `The language is ${name}, 
+                answer.textContent = `The language is ${name},  
                 spoken in ${data["results"][3]["formatted_address"]}! 
                 (${location[0]}, ${location[1]})`;
         });
@@ -158,15 +193,16 @@ async function showAnswer(){
             position: latlng,
             title: name,
         });
-        let distance = getDistance(latlng, guessMarker.position);
         map.panTo(latlng);
-        let pointsThisRound = 5000;
-        pointsThisRound -= Math.floor(5000 * (distance / (earth * Math.PI)));
         points += Math.floor(pointsThisRound);
-        score.innerHTML = `Total Score: ${points}`;
+        score.innerHTML = `Round ${round} - Score: ${points}`;
         
         if (guessMarker != null) {
-            result.textContent = `Your guess was ${distance} km away from the correct location, which is worth ${pointsThisRound} points out of 5000 possible.`;
+            if (compareStrings(guess, name)) {
+                result.textContent = "Your guess was exactly right, earning you all 5000 points!"
+            } else {
+                result.textContent = `Your guess was ${distance} km away from the correct location, which is worth ${pointsThisRound} points out of 5000 possible.`;
+            }
         }
 
         reveal.classList.remove('legal-button');

@@ -12,10 +12,10 @@ plosives = "p b t d k ɡ ʈ ɖ ȶ ȡ ɟ c ʔ q ɢ".split(" ")
 fricatives = "ɸ β f v θ ð s z ʆ ʓ ɬ ɮ ʃ ʒ ɕ ʑ ʂ ʐ ç ʝ x ɣ χ ʁ ħ ʕ ʜ ʡ ʢ h ɦ ɧ".split(" ")
 nasals = "m ɱ n ȵ ɳ ɲ ŋ ɴ N".split(" ")
 liquid = "ʙ ʋ ⱱ r ɹ ɾ l ʎ ʟ ɫ ʀ ɽ ɺ ɭ ȴ ɻ j ɰ w ɥ ʍ ᴅ R".split(" ")
-nonpulmonic = "ɓ ɗ ᶑ ʄ ɠ ʛ ! ǀ ǂ ʘ ǁ".split(" ")
+nonpulmonic = "ɓ ɗ ᶑ ʄ ɠ ʛ ! ǃ ǀ ǂ ʘ ǁ".split(" ")
 
 labial = "p b m ɱ ɸ β ʙ ⱱ ʋ v f w ʍ ʘ ɓ".split(" ")
-coronal = "t d s z θ ð ʃ ʒ n r ɹ ɾ l ɬ ɮ ɺ ɫ ɗ ! ǁ ǀ ᴅ R N".split(" ")
+coronal = "t d s z θ ð ʃ ʒ n r ɹ ɾ l ɬ ɮ ɺ ɫ ɗ ! ǃ ǁ ǀ ᴅ R N".split(" ")
 retroflex = "ʈ ɖ ʂ ʐ ɳ ɽ ɻ ɭ ᶑ".split(" ")
 palatal = "ȶ ȡ ɕ ʑ ʆ ʓ ȵ ɲ c ɟ ç ʝ j ʎ ȴ ɥ ʄ ɧ".split(" ")
 velar = "k ɡ x ɣ ŋ ɰ ʟ ɠ".split(" ")
@@ -64,7 +64,10 @@ def allUniquePhonemes():
                     elif phone[ind] in fricatives: moa = "fricative"
                     elif phone[ind] in nasals: moa = "nasal"
                     elif phone[ind] in liquid: moa = "liquid"
-                    if phone[ind] in nonpulmonic or phone[len(phone)-1] == "ʼ": moa = "non-pulmonic"
+                    if (phone[ind] in nonpulmonic or 
+                        phone[min(ind+1,len(phone)-1)] in nonpulmonic or 
+                        phone[min(ind+2,len(phone)-1)] in nonpulmonic or 
+                        phone[len(phone)-1] == "ʼ"): moa = "non-pulmonic"
 
                     elif phone[ind] in low: height = "open"
                     elif phone[ind] in openmid: height = "open-mid"
