@@ -179,6 +179,7 @@ async function showAnswer(){
         }
         
         const { AdvancedMarkerElement } = await google.maps.importLibrary("marker");
+        const { PinElement } = await google.maps.importLibrary("marker");
 
         answer.textContent = `The language is ${name}!`
         fetch(`https://maps.googleapis.com/maps/api/geocode/json?latlng=${location}&key=AIzaSyC9UJUs0xwqKZ28p6MORyH4uVLpb-crauo`)
@@ -188,10 +189,16 @@ async function showAnswer(){
                 spoken in ${data["results"][3]["formatted_address"]}! 
                 (${location[0]}, ${location[1]})`;
         });
+        let colors = new PinElement({
+            background: "#8BEA35",
+            borderColor: "#69B312",
+            glyphColor: "#69B312",
+        });
         correctMarker = new AdvancedMarkerElement({
             map: map,
             position: latlng,
             title: name,
+            content: colors.element,
         });
         map.panTo(latlng);
         points += Math.floor(pointsThisRound);
@@ -208,5 +215,7 @@ async function showAnswer(){
         reveal.classList.remove('legal-button');
     }
 }
+
+document.addEventListener("keydown", showAnswer);
 
 newLanguage();
