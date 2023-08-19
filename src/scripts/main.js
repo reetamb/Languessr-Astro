@@ -144,16 +144,10 @@ function newLanguage() {
 };
 // API-KEY: AIzaSyC9UJUs0xwqKZ28p6MORyH4uVLpb-crauo
 function compareStrings(s1, s2) {
-    [s1, s2].forEach(string => {
-        string = string.toLowerCase();
-        string = string.normalize("NFD").replace(/[\u0300-\u036f]/g, "");
-        return string;
-    })
-    console.log(s1);
-    console.log(s2.split(" "));
-    console.log(s2.split("-"));
-    console.log((s2.split(" ").indexOf(s1) != -1) || (s2.split("-").indexOf(s1) != -1))
-    console.log("\n")
+    s1 = s1.toLowerCase();
+    s1 = s1.normalize("NFD").replace(/[\u0300-\u036f]/g, "");
+    s2 = s2.toLowerCase();
+    s2 = s2.normalize("NFD").replace(/[\u0300-\u036f]/g, "");
     return (s1 == s2) || (s2.split(" ").indexOf(s1) != -1) || (s2.split("-").indexOf(s1) != -1);
 }
 
