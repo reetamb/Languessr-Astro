@@ -156,6 +156,7 @@ async function showAnswer(){
         var pointsThisRound = 0;
         var guess = input.value;
         var hasGuessed = false;
+        var correct = false;
 
         if (guess != "") {
             if (guess == "" || guess == null) {
@@ -163,6 +164,7 @@ async function showAnswer(){
             } else if (compareStrings(guess, name)) {
                 alert("You got it exactly right!");
                 pointsThisRound = 5000;
+                correct = true;
             } else {
                 alert("Better luck next time...");
             }
@@ -170,9 +172,11 @@ async function showAnswer(){
         } 
         if (guessMarker != null) {
             var distance = getDistance(latlng, guessMarker.position);
-            if (!hasGuessed) {
+            if (!correct) {
                 var pointsThisRound = 5000;
                 pointsThisRound -= Math.floor(5000 * (distance / (earth * Math.PI)));
+            }
+            if (!hasGuessed) {
                 if (pointsThisRound >= 4900) {
                     guess = prompt("You got really close: try typing the name of the language you think it is for a chance to get all 5000 points!");
                     if (guess == "" || guess == null) {
