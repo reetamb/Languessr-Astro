@@ -167,20 +167,22 @@ async function showAnswer(){
                 alert("Better luck next time...");
             }
             hasGuessed = true;
-        } if (guessMarker != null) {
+        } 
+        if (guessMarker != null) {
             var distance = getDistance(latlng, guessMarker.position);
-            var pointsThisRound = 5000;
-            pointsThisRound -= Math.floor(5000 * (distance / (earth * Math.PI)));
-
-            if (pointsThisRound >= 4900 && !hasGuessed) {
-                guess = prompt("You got really close: try typing the name of the language you think it is for a chance to get all 5000 points!");
-                if (guess == "" || guess == null) {
-                    alert("Better luck next time...");
-                } else if (compareStrings(guess, name)) {
-                    alert("You got it exactly right!");
-                    pointsThisRound = 5000;
-                } else {
-                    alert("Better luck next time...");
+            if (!hasGuessed) {
+                var pointsThisRound = 5000;
+                pointsThisRound -= Math.floor(5000 * (distance / (earth * Math.PI)));
+                if (pointsThisRound >= 4900) {
+                    guess = prompt("You got really close: try typing the name of the language you think it is for a chance to get all 5000 points!");
+                    if (guess == "" || guess == null) {
+                        alert("Better luck next time...");
+                    } else if (compareStrings(guess, name)) {
+                        alert("You got it exactly right!");
+                        pointsThisRound = 5000;
+                    } else {
+                        alert("Better luck next time...");
+                    }
                 }
             }
         }
