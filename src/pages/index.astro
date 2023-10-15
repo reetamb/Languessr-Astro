@@ -2,7 +2,7 @@
 import Layout from '../layouts/Layout.astro';
 ---
 
-<Layout title="Languessr.">
+<Layout>
 	<main>
 			<path
 				fill-rule="evenodd"
@@ -74,9 +74,9 @@ import Layout from '../layouts/Layout.astro';
 		</div>
 		<div id="right-half">
 			<p class="instructions">
-				Guess where on the map the language is spoken:
+				Guess where on the the language is spoken:
 				<span id="righties">
-					<input id="preguess" placeholder="Or guess the language:"/>
+					<input id="preguess" placeholder="Or guess its name:"/>
 					<button id="reveal">Guess</button>
 				</span>
 				<br/>
@@ -96,137 +96,6 @@ Jena: Max Planck Institute for the Science of Human History.
 		">Site by Reetam - Data from PHOIBLE</p>
 	</main>
 </Layout>
-
-<style>
-	main {
-		margin: auto;
-		color: rgb(var(--accent-light));
-		font-size: 20px;
-		line-height: 1.6;
-	}
-	h1 {
-		font-size: 4rem;
-		font-weight: 700;
-		line-height: 1;
-		text-align: center;
-		margin-bottom: 0.4em;
-	}
-	.text-gradient {
-		background-image: var(--accent-gradient);
-		-webkit-background-clip: text;
-		-webkit-text-fill-color: transparent;
-		background-size: 400%;
-		width: 50%;
-		min-width: 50%;
-		background-position: 0%;
-	}
-	.instructions {
-		margin-bottom: 2rem;
-		border: 1px solid rgba(var(--accent-light), 25%);
-		background: linear-gradient(rgba(var(--accent-dark), 66%), rgba(var(--accent-dark), 33%));
-		padding: 1.5rem;
-		border-radius: 8px;
-	}
-	.instructions strong {
-		color: rgb(var(--accent-light));
-	}
-	button {
-		float: right;
-		background-color: rgb(var(--accent));
-		border: 3px solid rgb(var(--accent-dark));
-		border-radius: 6px;
-		vertical-align: center;
-		height: 32px;
-		width: auto;
-		color: black;
-		font-size: 16px;
-		transition-duration: 0.4s;
-	}
-	#righties {
-		display: flex;
-		max-width: 50%;
-		margin-left: auto;
-		float: right;
-	}
-	input {
-		background-color: rgb(var(--accent));
-		border: 3px solid rgb(var(--accent-dark));
-		border-radius: 6px;
-		height: 25px;
-		margin-right: 5px;
-		color: black;
-		float: none;
-	}
-	input::placeholder {
-		color: rgb(var(--accent-dark));
-	}
-	#new, #pghold {
-		margin-left: auto;
-		margin-right: 5px;
-	}
-	.legal-button:hover {
-		background-color: rgb(var(--accent-light));
-	}
-	#answer, #result, #score {
-		text-align: center;
-		margin-top: 5px;
-	}
-	table, td {
-		border: 2px solid rgb(var(--accent-dark));
-		border-radius: 4px;
-		background-color: rgb(var(--accent));
-		padding-left: 3px;
-		padding-right: 3px;
-	}
-	#map {
-		background-color: blue;
-		width: 90%;
-		max-width: 90%;
-		margin: auto;
-		height: 300px;
-	}
-	#the {
-		display: inline-block;
-	}
-	ol {
-		margin-bottom: 10px;
-	}
-	#all {
-		display: flex;
-		justify-content: center;
-		margin: auto;
-		width: 100%;
-		
-	}
-	#vocoids {
-		display: flex;
-	}
-	#tones {
-		height: 30px;
-		float: right;
-		margin-right: 0px;
-		margin-left: auto;
-		align-self: right;
-	}
-	#consonants {
-		width: 100%;
-	}
-	#answer, #result {
-		width: 90%;
-		text-align: center;
-		margin: auto;
-		max-width: 90%;
-		clear: left;
-	}
-	#right-half, #left-half {
-		max-width: 50%;
-		min-width: 50%;
-	}
-	#cite {
-		margin: auto;
-		text-align: center;
-	}
-</style>
 
 <script src="https://polyfill.io/v3/polyfill.min.js?features=default"></script>
 <script src="../scripts/main.js"></script>
