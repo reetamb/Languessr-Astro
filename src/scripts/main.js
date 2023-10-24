@@ -111,9 +111,10 @@ function newLanguage() {
         if (data.type == 'consonant') {
             if (data.manner == 'nasal') { row = 1; }
             if (data.manner == 'plosive') { row = 2; }
-            if (data.manner == 'fricative') { row = 3; }
-            if (data.manner == 'liquid') { row = 4; }
-            if (data.manner == 'non-pulmonic') { row = 5; }
+            if (data.manner == 'affricate') { row = 3; }
+            if (data.manner == 'fricative') { row = 4; }
+            if (data.manner == 'liquid') { row = 5; }
+            if (data.manner == 'non-pulmonic') { row = 6; }
 
             if (data.place == 'labial') { col = 1; }
             if (data.place == 'coronal') { col = 2; }

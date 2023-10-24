@@ -145,8 +145,8 @@
     },
     "t\u0320\u0283": {
         "type": "consonant",
-        "place": "coronal",
-        "manner": "plosive",
+        "place": "palatal",
+        "manner": "affricate",
         "height": "",
         "backness": "",
         "tone": false,
@@ -154,8 +154,8 @@
     },
     "t\u0320\u0283\u02b0": {
         "type": "consonant",
-        "place": "coronal",
-        "manner": "plosive",
+        "place": "palatal",
+        "manner": "affricate",
         "height": "",
         "backness": "",
         "tone": false,
@@ -163,8 +163,8 @@
     },
     "t\u0320\u0283\u02c0": {
         "type": "consonant",
-        "place": "coronal",
-        "manner": "plosive",
+        "place": "palatal",
+        "manner": "affricate",
         "height": "",
         "backness": "",
         "tone": false,
@@ -659,7 +659,7 @@
     "ts\u02b0": {
         "type": "consonant",
         "place": "coronal",
-        "manner": "plosive",
+        "manner": "affricate",
         "height": "",
         "backness": "",
         "tone": false,
@@ -668,7 +668,7 @@
     "ts\u02b7\u02b0": {
         "type": "consonant",
         "place": "coronal",
-        "manner": "plosive",
+        "manner": "affricate",
         "height": "",
         "backness": "",
         "tone": false,
@@ -703,8 +703,8 @@
     },
     "t\u0320\u0283\u02b7\u02b0": {
         "type": "consonant",
-        "place": "coronal",
-        "manner": "plosive",
+        "place": "palatal",
+        "manner": "affricate",
         "height": "",
         "backness": "",
         "tone": false,
@@ -758,7 +758,7 @@
     "t\u0348s": {
         "type": "consonant",
         "place": "coronal",
-        "manner": "plosive",
+        "manner": "affricate",
         "height": "",
         "backness": "",
         "tone": false,
@@ -767,7 +767,7 @@
     "t\u0348s\u02b7": {
         "type": "consonant",
         "place": "coronal",
-        "manner": "plosive",
+        "manner": "affricate",
         "height": "",
         "backness": "",
         "tone": false,
@@ -856,7 +856,7 @@
     },
     "\u0283": {
         "type": "consonant",
-        "place": "coronal",
+        "place": "palatal",
         "manner": "fricative",
         "height": "",
         "backness": "",
@@ -865,7 +865,7 @@
     },
     "\u0283\u02b7": {
         "type": "consonant",
-        "place": "coronal",
+        "place": "palatal",
         "manner": "fricative",
         "height": "",
         "backness": "",
@@ -874,7 +874,7 @@
     },
     "\u0283\u0348": {
         "type": "consonant",
-        "place": "coronal",
+        "place": "palatal",
         "manner": "fricative",
         "height": "",
         "backness": "",
@@ -883,7 +883,7 @@
     },
     "\u0283\u0348\u02b7": {
         "type": "consonant",
-        "place": "coronal",
+        "place": "palatal",
         "manner": "fricative",
         "height": "",
         "backness": "",
@@ -892,7 +892,7 @@
     },
     "\u0292": {
         "type": "consonant",
-        "place": "coronal",
+        "place": "palatal",
         "manner": "fricative",
         "height": "",
         "backness": "",
@@ -974,7 +974,7 @@
     "d\u033bz\u033b": {
         "type": "consonant",
         "place": "coronal",
-        "manner": "plosive",
+        "manner": "affricate",
         "height": "",
         "backness": "",
         "tone": false,
@@ -1028,7 +1028,7 @@
     "q\u03c7": {
         "type": "consonant",
         "place": "laryngeal",
-        "manner": "plosive",
+        "manner": "affricate",
         "height": "",
         "backness": "",
         "tone": false,
@@ -1037,7 +1037,7 @@
     "q\u03c7\u02b7": {
         "type": "consonant",
         "place": "laryngeal",
-        "manner": "plosive",
+        "manner": "affricate",
         "height": "",
         "backness": "",
         "tone": false,
@@ -1073,7 +1073,7 @@
     "t\u033bs\u033b": {
         "type": "consonant",
         "place": "coronal",
-        "manner": "plosive",
+        "manner": "affricate",
         "height": "",
         "backness": "",
         "tone": false,
@@ -1225,7 +1225,7 @@
     },
     "\u0283\u02bc": {
         "type": "consonant",
-        "place": "coronal",
+        "place": "palatal",
         "manner": "non-pulmonic",
         "height": "",
         "backness": "",
@@ -1298,7 +1298,7 @@
     "ts": {
         "type": "consonant",
         "place": "coronal",
-        "manner": "plosive",
+        "manner": "affricate",
         "height": "",
         "backness": "",
         "tone": false,
@@ -1361,7 +1361,7 @@
     "dz": {
         "type": "consonant",
         "place": "coronal",
-        "manner": "plosive",
+        "manner": "affricate",
         "height": "",
         "backness": "",
         "tone": false,
@@ -1369,8 +1369,8 @@
     },
     "d\u0320\u0292": {
         "type": "consonant",
-        "place": "coronal",
-        "manner": "plosive",
+        "place": "palatal",
+        "manner": "affricate",
         "height": "",
         "backness": "",
         "tone": false,
@@ -1469,7 +1469,7 @@
     "\u0256\u0290": {
         "type": "consonant",
         "place": "retroflex",
-        "manner": "plosive",
+        "manner": "affricate",
         "height": "",
         "backness": "",
         "tone": false,
@@ -1496,7 +1496,7 @@
     "\u0288\u0282": {
         "type": "consonant",
         "place": "retroflex",
-        "manner": "plosive",
+        "manner": "affricate",
         "height": "",
         "backness": "",
         "tone": false,
@@ -1505,7 +1505,7 @@
     "\u0288\u0282\u02b0": {
         "type": "consonant",
         "place": "retroflex",
-        "manner": "plosive",
+        "manner": "affricate",
         "height": "",
         "backness": "",
         "tone": false,
@@ -1585,8 +1585,8 @@
     },
     "d\u0320\u0292\u02d0": {
         "type": "consonant",
-        "place": "coronal",
-        "manner": "plosive",
+        "place": "palatal",
+        "manner": "affricate",
         "height": "",
         "backness": "",
         "tone": false,
@@ -1594,8 +1594,8 @@
     },
     "d\u0320\u0292\u0324": {
         "type": "consonant",
-        "place": "coronal",
-        "manner": "plosive",
+        "place": "palatal",
+        "manner": "affricate",
         "height": "",
         "backness": "",
         "tone": false,
@@ -1693,8 +1693,8 @@
     },
     "t\u0320\u0283\u02d0": {
         "type": "consonant",
-        "place": "coronal",
-        "manner": "plosive",
+        "place": "palatal",
+        "manner": "affricate",
         "height": "",
         "backness": "",
         "tone": false,
@@ -1874,7 +1874,7 @@
     "dz\u02d0": {
         "type": "consonant",
         "place": "coronal",
-        "manner": "plosive",
+        "manner": "affricate",
         "height": "",
         "backness": "",
         "tone": false,
@@ -1919,7 +1919,7 @@
     "ts\u02d0": {
         "type": "consonant",
         "place": "coronal",
-        "manner": "plosive",
+        "manner": "affricate",
         "height": "",
         "backness": "",
         "tone": false,
@@ -2018,7 +2018,7 @@
     "c\u00e7": {
         "type": "consonant",
         "place": "palatal",
-        "manner": "plosive",
+        "manner": "affricate",
         "height": "",
         "backness": "",
         "tone": false,
@@ -2027,7 +2027,7 @@
     "c\u00e7\u02b0": {
         "type": "consonant",
         "place": "palatal",
-        "manner": "plosive",
+        "manner": "affricate",
         "height": "",
         "backness": "",
         "tone": false,
@@ -2045,7 +2045,7 @@
     "\u025f\u029d": {
         "type": "consonant",
         "place": "palatal",
-        "manner": "plosive",
+        "manner": "affricate",
         "height": "",
         "backness": "",
         "tone": false,
@@ -2054,7 +2054,7 @@
     "\u025f\u0324\u029d": {
         "type": "consonant",
         "place": "palatal",
-        "manner": "plosive",
+        "manner": "affricate",
         "height": "",
         "backness": "",
         "tone": false,
@@ -2125,8 +2125,8 @@
     },
     "\u02c0d\u0320\u0292": {
         "type": "consonant",
-        "place": "coronal",
-        "manner": "plosive",
+        "place": "palatal",
+        "manner": "affricate",
         "height": "",
         "backness": "",
         "tone": false,
@@ -2927,7 +2927,7 @@
     "tz\u0324\u0325": {
         "type": "consonant",
         "place": "coronal",
-        "manner": "plosive",
+        "manner": "affricate",
         "height": "",
         "backness": "",
         "tone": false,
@@ -3665,7 +3665,7 @@
     "kx": {
         "type": "consonant",
         "place": "velar",
-        "manner": "plosive",
+        "manner": "affricate",
         "height": "",
         "backness": "",
         "tone": false,
@@ -3944,7 +3944,7 @@
     "t\u02d0s": {
         "type": "consonant",
         "place": "coronal",
-        "manner": "plosive",
+        "manner": "affricate",
         "height": "",
         "backness": "",
         "tone": false,
@@ -3988,7 +3988,7 @@
     },
     "\u0283\u02d0": {
         "type": "consonant",
-        "place": "coronal",
+        "place": "palatal",
         "manner": "fricative",
         "height": "",
         "backness": "",
@@ -4007,7 +4007,7 @@
     "kx\u02b7": {
         "type": "consonant",
         "place": "velar",
-        "manner": "plosive",
+        "manner": "affricate",
         "height": "",
         "backness": "",
         "tone": false,
@@ -4016,7 +4016,7 @@
     "tx": {
         "type": "consonant",
         "place": "coronal",
-        "manner": "plosive",
+        "manner": "affricate",
         "height": "",
         "backness": "",
         "tone": false,
@@ -4025,7 +4025,7 @@
     "t\u026c": {
         "type": "consonant",
         "place": "coronal",
-        "manner": "plosive",
+        "manner": "affricate",
         "height": "",
         "backness": "",
         "tone": false,
@@ -4034,7 +4034,7 @@
     "t\u026c\u02b0": {
         "type": "consonant",
         "place": "coronal",
-        "manner": "plosive",
+        "manner": "affricate",
         "height": "",
         "backness": "",
         "tone": false,
@@ -4052,7 +4052,7 @@
     "t\u032a\u03b8": {
         "type": "consonant",
         "place": "coronal",
-        "manner": "plosive",
+        "manner": "affricate",
         "height": "",
         "backness": "",
         "tone": false,
@@ -4061,7 +4061,7 @@
     "t\u032a\u03b8\u02b0": {
         "type": "consonant",
         "place": "coronal",
-        "manner": "plosive",
+        "manner": "affricate",
         "height": "",
         "backness": "",
         "tone": false,
@@ -4124,7 +4124,7 @@
     "t\u033bs\u033b\u02b0": {
         "type": "consonant",
         "place": "coronal",
-        "manner": "plosive",
+        "manner": "affricate",
         "height": "",
         "backness": "",
         "tone": false,
@@ -4222,7 +4222,7 @@
     },
     "\u0283\u0348\u02d0": {
         "type": "consonant",
-        "place": "coronal",
+        "place": "palatal",
         "manner": "fricative",
         "height": "",
         "backness": "",
@@ -4447,8 +4447,8 @@
     },
     "t\u0320\u0283\u0349": {
         "type": "consonant",
-        "place": "coronal",
-        "manner": "plosive",
+        "place": "palatal",
+        "manner": "affricate",
         "height": "",
         "backness": "",
         "tone": false,
@@ -4457,7 +4457,7 @@
     "t\u0349s": {
         "type": "consonant",
         "place": "coronal",
-        "manner": "plosive",
+        "manner": "affricate",
         "height": "",
         "backness": "",
         "tone": false,
@@ -4547,7 +4547,7 @@
     "ts\u02b0\u02d0": {
         "type": "consonant",
         "place": "coronal",
-        "manner": "plosive",
+        "manner": "affricate",
         "height": "",
         "backness": "",
         "tone": false,
@@ -4556,7 +4556,7 @@
     "ts\u02bc\u02d0": {
         "type": "consonant",
         "place": "coronal",
-        "manner": "plosive",
+        "manner": "affricate",
         "height": "",
         "backness": "",
         "tone": false,
@@ -4573,8 +4573,8 @@
     },
     "t\u0320\u0283\u02b0\u02d0": {
         "type": "consonant",
-        "place": "coronal",
-        "manner": "plosive",
+        "place": "palatal",
+        "manner": "affricate",
         "height": "",
         "backness": "",
         "tone": false,
@@ -4582,8 +4582,8 @@
     },
     "t\u0320\u0283\u02bc\u02d0": {
         "type": "consonant",
-        "place": "coronal",
-        "manner": "plosive",
+        "place": "palatal",
+        "manner": "affricate",
         "height": "",
         "backness": "",
         "tone": false,
@@ -4682,7 +4682,7 @@
     "\u02b0ts": {
         "type": "consonant",
         "place": "coronal",
-        "manner": "plosive",
+        "manner": "affricate",
         "height": "",
         "backness": "",
         "tone": false,
@@ -4816,7 +4816,7 @@
     },
     "\u0283\u02b2": {
         "type": "consonant",
-        "place": "coronal",
+        "place": "palatal",
         "manner": "fricative",
         "height": "",
         "backness": "",
@@ -4870,8 +4870,8 @@
     },
     "\u02b0t\u0320\u0283": {
         "type": "consonant",
-        "place": "coronal",
-        "manner": "plosive",
+        "place": "palatal",
+        "manner": "affricate",
         "height": "",
         "backness": "",
         "tone": false,
@@ -4897,8 +4897,8 @@
     },
     "t\u0320\u0283\u02b2\u02b0": {
         "type": "consonant",
-        "place": "coronal",
-        "manner": "plosive",
+        "place": "palatal",
+        "manner": "affricate",
         "height": "",
         "backness": "",
         "tone": false,
@@ -5176,7 +5176,7 @@
     },
     "\u0292\u0348\u02d0": {
         "type": "consonant",
-        "place": "coronal",
+        "place": "palatal",
         "manner": "fricative",
         "height": "",
         "backness": "",
@@ -5320,7 +5320,7 @@
     },
     "\u0292\u02d0": {
         "type": "consonant",
-        "place": "coronal",
+        "place": "palatal",
         "manner": "fricative",
         "height": "",
         "backness": "",
@@ -5563,7 +5563,7 @@
     },
     "\u0283\u0349": {
         "type": "consonant",
-        "place": "coronal",
+        "place": "palatal",
         "manner": "fricative",
         "height": "",
         "backness": "",
@@ -5735,7 +5735,7 @@
     "c\u00e7\u02b7\u02b0": {
         "type": "consonant",
         "place": "palatal",
-        "manner": "plosive",
+        "manner": "affricate",
         "height": "",
         "backness": "",
         "tone": false,
@@ -5753,7 +5753,7 @@
     "\u025f\u029d\u02b7": {
         "type": "consonant",
         "place": "palatal",
-        "manner": "plosive",
+        "manner": "affricate",
         "height": "",
         "backness": "",
         "tone": false,
@@ -5779,8 +5779,8 @@
     },
     "d\u0291": {
         "type": "consonant",
-        "place": "coronal",
-        "manner": "plosive",
+        "place": "palatal",
+        "manner": "affricate",
         "height": "",
         "backness": "",
         "tone": false,
@@ -5788,8 +5788,8 @@
     },
     "d\u0291\u1da3": {
         "type": "consonant",
-        "place": "coronal",
-        "manner": "plosive",
+        "place": "palatal",
+        "manner": "affricate",
         "height": "",
         "backness": "",
         "tone": false,
@@ -5806,8 +5806,8 @@
     },
     "t\u0255": {
         "type": "consonant",
-        "place": "coronal",
-        "manner": "plosive",
+        "place": "palatal",
+        "manner": "affricate",
         "height": "",
         "backness": "",
         "tone": false,
@@ -5815,8 +5815,8 @@
     },
     "t\u0255\u1da3": {
         "type": "consonant",
-        "place": "coronal",
-        "manner": "plosive",
+        "place": "palatal",
+        "manner": "affricate",
         "height": "",
         "backness": "",
         "tone": false,
@@ -5851,8 +5851,8 @@
     },
     "d\u0320\u0292\u02b7": {
         "type": "consonant",
-        "place": "coronal",
-        "manner": "plosive",
+        "place": "palatal",
+        "manner": "affricate",
         "height": "",
         "backness": "",
         "tone": false,
@@ -5860,8 +5860,8 @@
     },
     "t\u0320\u0283\u02b7": {
         "type": "consonant",
-        "place": "coronal",
-        "manner": "plosive",
+        "place": "palatal",
+        "manner": "affricate",
         "height": "",
         "backness": "",
         "tone": false,
@@ -5942,7 +5942,7 @@
     "pf": {
         "type": "consonant",
         "place": "labial",
-        "manner": "plosive",
+        "manner": "affricate",
         "height": "",
         "backness": "",
         "tone": false,
@@ -5951,7 +5951,7 @@
     "pf\u02b0": {
         "type": "consonant",
         "place": "labial",
-        "manner": "plosive",
+        "manner": "affricate",
         "height": "",
         "backness": "",
         "tone": false,
@@ -6050,7 +6050,7 @@
     "d\u032a\u00f0": {
         "type": "consonant",
         "place": "coronal",
-        "manner": "plosive",
+        "manner": "affricate",
         "height": "",
         "backness": "",
         "tone": false,
@@ -6571,8 +6571,8 @@
     },
     "t\u0320\u0283\u02b2": {
         "type": "consonant",
-        "place": "coronal",
-        "manner": "plosive",
+        "place": "palatal",
+        "manner": "affricate",
         "height": "",
         "backness": "",
         "tone": false,
@@ -6607,7 +6607,7 @@
     },
     "\u0283\u02e0": {
         "type": "consonant",
-        "place": "coronal",
+        "place": "palatal",
         "manner": "fricative",
         "height": "",
         "backness": "",
@@ -6616,7 +6616,7 @@
     },
     "\u0292\u02e0": {
         "type": "consonant",
-        "place": "coronal",
+        "place": "palatal",
         "manner": "fricative",
         "height": "",
         "backness": "",
@@ -6626,7 +6626,7 @@
     "ts\u02b2": {
         "type": "consonant",
         "place": "coronal",
-        "manner": "plosive",
+        "manner": "affricate",
         "height": "",
         "backness": "",
         "tone": false,
@@ -6652,8 +6652,8 @@
     },
     "d\u0320\u0292\u02b2": {
         "type": "consonant",
-        "place": "coronal",
-        "manner": "plosive",
+        "place": "palatal",
+        "manner": "affricate",
         "height": "",
         "backness": "",
         "tone": false,
@@ -6661,7 +6661,7 @@
     },
     "\u0292\u02b2": {
         "type": "consonant",
-        "place": "coronal",
+        "place": "palatal",
         "manner": "fricative",
         "height": "",
         "backness": "",
@@ -6778,8 +6778,8 @@
     },
     "d\u0320\u0292\u0324\u02d0": {
         "type": "consonant",
-        "place": "coronal",
-        "manner": "plosive",
+        "place": "palatal",
+        "manner": "affricate",
         "height": "",
         "backness": "",
         "tone": false,
@@ -6950,7 +6950,7 @@
     "c\u00e7\u02d0": {
         "type": "consonant",
         "place": "palatal",
-        "manner": "plosive",
+        "manner": "affricate",
         "height": "",
         "backness": "",
         "tone": false,
@@ -6959,7 +6959,7 @@
     "\u025f\u029d\u02d0": {
         "type": "consonant",
         "place": "palatal",
-        "manner": "plosive",
+        "manner": "affricate",
         "height": "",
         "backness": "",
         "tone": false,
@@ -7202,7 +7202,7 @@
     "d\u032az\u032a|dz": {
         "type": "consonant",
         "place": "coronal",
-        "manner": "plosive",
+        "manner": "affricate",
         "height": "",
         "backness": "",
         "tone": false,
@@ -7238,7 +7238,7 @@
     "t\u032as\u032a\u02b0|ts\u02b0": {
         "type": "consonant",
         "place": "coronal",
-        "manner": "plosive",
+        "manner": "affricate",
         "height": "",
         "backness": "",
         "tone": false,
@@ -7355,7 +7355,7 @@
     "bv": {
         "type": "consonant",
         "place": "labial",
-        "manner": "plosive",
+        "manner": "affricate",
         "height": "",
         "backness": "",
         "tone": false,
@@ -7364,7 +7364,7 @@
     "d\u026e": {
         "type": "consonant",
         "place": "coronal",
-        "manner": "plosive",
+        "manner": "affricate",
         "height": "",
         "backness": "",
         "tone": false,
@@ -7373,7 +7373,7 @@
     "c\u00e7\u02b7": {
         "type": "consonant",
         "place": "palatal",
-        "manner": "plosive",
+        "manner": "affricate",
         "height": "",
         "backness": "",
         "tone": false,
@@ -7445,7 +7445,7 @@
     "t\u032as\u032a|ts": {
         "type": "consonant",
         "place": "coronal",
-        "manner": "plosive",
+        "manner": "affricate",
         "height": "",
         "backness": "",
         "tone": false,
@@ -7571,7 +7571,7 @@
     "q\u03c7\u02b7\u02e4": {
         "type": "consonant",
         "place": "laryngeal",
-        "manner": "plosive",
+        "manner": "affricate",
         "height": "",
         "backness": "",
         "tone": false,
@@ -7589,7 +7589,7 @@
     "q\u03c7\u02bc\u02d0": {
         "type": "consonant",
         "place": "laryngeal",
-        "manner": "plosive",
+        "manner": "affricate",
         "height": "",
         "backness": "",
         "tone": false,
@@ -7598,7 +7598,7 @@
     "q\u03c7\u02e4": {
         "type": "consonant",
         "place": "laryngeal",
-        "manner": "plosive",
+        "manner": "affricate",
         "height": "",
         "backness": "",
         "tone": false,
@@ -7616,7 +7616,7 @@
     "q\u03c7\u02e4\u02d0": {
         "type": "consonant",
         "place": "laryngeal",
-        "manner": "plosive",
+        "manner": "affricate",
         "height": "",
         "backness": "",
         "tone": false,
@@ -7643,7 +7643,7 @@
     "t\u032as\u032a\u02b7\u02b0|ts\u02b7\u02b0": {
         "type": "consonant",
         "place": "coronal",
-        "manner": "plosive",
+        "manner": "affricate",
         "height": "",
         "backness": "",
         "tone": false,
@@ -7670,7 +7670,7 @@
     "t\u032as\u032a\u02bc\u02d0|ts\u02bc\u02d0": {
         "type": "consonant",
         "place": "coronal",
-        "manner": "plosive",
+        "manner": "affricate",
         "height": "",
         "backness": "",
         "tone": false,
@@ -7679,7 +7679,7 @@
     "t\u032a\u026c\u032a\u02b0|t\u026c\u02b0": {
         "type": "consonant",
         "place": "coronal",
-        "manner": "plosive",
+        "manner": "affricate",
         "height": "",
         "backness": "",
         "tone": false,
@@ -7688,7 +7688,7 @@
     "t\u032a\u026c\u032a\u02b7\u02b0|t\u026c\u02b7\u02b0": {
         "type": "consonant",
         "place": "coronal",
-        "manner": "plosive",
+        "manner": "affricate",
         "height": "",
         "backness": "",
         "tone": false,
@@ -7795,7 +7795,7 @@
     },
     "\u0283\u02b7\u02d0": {
         "type": "consonant",
-        "place": "coronal",
+        "place": "palatal",
         "manner": "fricative",
         "height": "",
         "backness": "",
@@ -7804,7 +7804,7 @@
     },
     "\u0292\u02b7": {
         "type": "consonant",
-        "place": "coronal",
+        "place": "palatal",
         "manner": "fricative",
         "height": "",
         "backness": "",
@@ -7895,7 +7895,7 @@
     "\u0288\u0282\u0347": {
         "type": "consonant",
         "place": "retroflex",
-        "manner": "plosive",
+        "manner": "affricate",
         "height": "",
         "backness": "",
         "tone": false,
@@ -7940,7 +7940,7 @@
     "kx\u02bc\u02d0": {
         "type": "consonant",
         "place": "velar",
-        "manner": "plosive",
+        "manner": "affricate",
         "height": "",
         "backness": "",
         "tone": false,
@@ -7949,7 +7949,7 @@
     "kx\u02d0": {
         "type": "consonant",
         "place": "velar",
-        "manner": "plosive",
+        "manner": "affricate",
         "height": "",
         "backness": "",
         "tone": false,
@@ -7958,7 +7958,7 @@
     "q\u03c7\u02d0": {
         "type": "consonant",
         "place": "laryngeal",
-        "manner": "plosive",
+        "manner": "affricate",
         "height": "",
         "backness": "",
         "tone": false,
@@ -7967,7 +7967,7 @@
     "t\u032as\u032a\u02d0|ts\u02d0": {
         "type": "consonant",
         "place": "coronal",
-        "manner": "plosive",
+        "manner": "affricate",
         "height": "",
         "backness": "",
         "tone": false,
@@ -7976,7 +7976,7 @@
     "t\u032a\u026c\u032a\u02bc\u02d0|t\u026c\u02bc\u02d0": {
         "type": "consonant",
         "place": "coronal",
-        "manner": "plosive",
+        "manner": "affricate",
         "height": "",
         "backness": "",
         "tone": false,
@@ -7985,7 +7985,7 @@
     "t\u032a\u026c\u032a\u02d0|t\u026c\u02d0": {
         "type": "consonant",
         "place": "coronal",
-        "manner": "plosive",
+        "manner": "affricate",
         "height": "",
         "backness": "",
         "tone": false,
@@ -8012,7 +8012,7 @@
     "d\u032az\u032a": {
         "type": "consonant",
         "place": "coronal",
-        "manner": "plosive",
+        "manner": "affricate",
         "height": "",
         "backness": "",
         "tone": false,
@@ -8021,7 +8021,7 @@
     "t\u032as\u032a\u02b0": {
         "type": "consonant",
         "place": "coronal",
-        "manner": "plosive",
+        "manner": "affricate",
         "height": "",
         "backness": "",
         "tone": false,
@@ -8291,7 +8291,7 @@
     "t\u032as\u032a": {
         "type": "consonant",
         "place": "coronal",
-        "manner": "plosive",
+        "manner": "affricate",
         "height": "",
         "backness": "",
         "tone": false,
@@ -8300,7 +8300,7 @@
     "t\u032as\u032a\u02b2": {
         "type": "consonant",
         "place": "coronal",
-        "manner": "plosive",
+        "manner": "affricate",
         "height": "",
         "backness": "",
         "tone": false,
@@ -8327,7 +8327,7 @@
     "k\u026c": {
         "type": "consonant",
         "place": "velar",
-        "manner": "plosive",
+        "manner": "affricate",
         "height": "",
         "backness": "",
         "tone": false,
@@ -8336,7 +8336,7 @@
     "t\u032as\u032a\u02c0|ts\u02c0": {
         "type": "consonant",
         "place": "coronal",
-        "manner": "plosive",
+        "manner": "affricate",
         "height": "",
         "backness": "",
         "tone": false,
@@ -8453,7 +8453,7 @@
     "kx\u02b0": {
         "type": "consonant",
         "place": "velar",
-        "manner": "plosive",
+        "manner": "affricate",
         "height": "",
         "backness": "",
         "tone": false,
@@ -8462,7 +8462,7 @@
     "kx\u02b7\u02b0": {
         "type": "consonant",
         "place": "velar",
-        "manner": "plosive",
+        "manner": "affricate",
         "height": "",
         "backness": "",
         "tone": false,
@@ -8471,7 +8471,7 @@
     "t\u032a\u026c\u032a|t\u026c": {
         "type": "consonant",
         "place": "coronal",
-        "manner": "plosive",
+        "manner": "affricate",
         "height": "",
         "backness": "",
         "tone": false,
@@ -8587,8 +8587,8 @@
     },
     "t\u0255\u02b0": {
         "type": "consonant",
-        "place": "coronal",
-        "manner": "plosive",
+        "place": "palatal",
+        "manner": "affricate",
         "height": "",
         "backness": "",
         "tone": false,
@@ -8804,7 +8804,7 @@
     "d\u032a\u026e\u032a|d\u026e": {
         "type": "consonant",
         "place": "coronal",
-        "manner": "plosive",
+        "manner": "affricate",
         "height": "",
         "backness": "",
         "tone": false,
@@ -9371,7 +9371,7 @@
     "k\u0266": {
         "type": "consonant",
         "place": "velar",
-        "manner": "plosive",
+        "manner": "affricate",
         "height": "",
         "backness": "",
         "tone": false,
@@ -9380,7 +9380,7 @@
     "p\u0266": {
         "type": "consonant",
         "place": "labial",
-        "manner": "plosive",
+        "manner": "affricate",
         "height": "",
         "backness": "",
         "tone": false,
@@ -9389,7 +9389,7 @@
     "ts\u0266": {
         "type": "consonant",
         "place": "coronal",
-        "manner": "plosive",
+        "manner": "affricate",
         "height": "",
         "backness": "",
         "tone": false,
@@ -9398,7 +9398,7 @@
     "t\u0266": {
         "type": "consonant",
         "place": "coronal",
-        "manner": "plosive",
+        "manner": "affricate",
         "height": "",
         "backness": "",
         "tone": false,
@@ -9407,7 +9407,7 @@
     "t\u032a\u0266": {
         "type": "consonant",
         "place": "coronal",
-        "manner": "plosive",
+        "manner": "affricate",
         "height": "",
         "backness": "",
         "tone": false,
@@ -9425,7 +9425,7 @@
     "ts\u02c0": {
         "type": "consonant",
         "place": "coronal",
-        "manner": "plosive",
+        "manner": "affricate",
         "height": "",
         "backness": "",
         "tone": false,
@@ -9505,7 +9505,7 @@
     },
     "\u0283\u0347": {
         "type": "consonant",
-        "place": "coronal",
+        "place": "palatal",
         "manner": "fricative",
         "height": "",
         "backness": "",
@@ -9514,7 +9514,7 @@
     },
     "\u0292\u0347": {
         "type": "consonant",
-        "place": "coronal",
+        "place": "palatal",
         "manner": "fricative",
         "height": "",
         "backness": "",
@@ -9812,7 +9812,7 @@
     "dz\u02e0": {
         "type": "consonant",
         "place": "coronal",
-        "manner": "plosive",
+        "manner": "affricate",
         "height": "",
         "backness": "",
         "tone": false,
@@ -9821,7 +9821,7 @@
     "dz\u0324": {
         "type": "consonant",
         "place": "coronal",
-        "manner": "plosive",
+        "manner": "affricate",
         "height": "",
         "backness": "",
         "tone": false,
@@ -9856,8 +9856,8 @@
     },
     "d\u0320\u0292\u02e0": {
         "type": "consonant",
-        "place": "coronal",
-        "manner": "plosive",
+        "place": "palatal",
+        "manner": "affricate",
         "height": "",
         "backness": "",
         "tone": false,
@@ -9947,7 +9947,7 @@
     "ts\u02e0": {
         "type": "consonant",
         "place": "coronal",
-        "manner": "plosive",
+        "manner": "affricate",
         "height": "",
         "backness": "",
         "tone": false,
@@ -9964,8 +9964,8 @@
     },
     "t\u0320\u0283\u02e0": {
         "type": "consonant",
-        "place": "coronal",
-        "manner": "plosive",
+        "place": "palatal",
+        "manner": "affricate",
         "height": "",
         "backness": "",
         "tone": false,
@@ -10486,8 +10486,8 @@
     },
     "t\u0320\u0283\u02b7\u02d0": {
         "type": "consonant",
-        "place": "coronal",
-        "manner": "plosive",
+        "place": "palatal",
+        "manner": "affricate",
         "height": "",
         "backness": "",
         "tone": false,
@@ -10496,7 +10496,7 @@
     "t\u032as\u032a\u02b7\u02d0|ts\u02b7\u02d0": {
         "type": "consonant",
         "place": "coronal",
-        "manner": "plosive",
+        "manner": "affricate",
         "height": "",
         "backness": "",
         "tone": false,
@@ -10523,7 +10523,7 @@
     "t\u032as\u032a\u02b2|ts\u02b2": {
         "type": "consonant",
         "place": "coronal",
-        "manner": "plosive",
+        "manner": "affricate",
         "height": "",
         "backness": "",
         "tone": false,
@@ -10577,7 +10577,7 @@
     "ts\u0347": {
         "type": "consonant",
         "place": "coronal",
-        "manner": "plosive",
+        "manner": "affricate",
         "height": "",
         "backness": "",
         "tone": false,
@@ -10748,7 +10748,7 @@
     "d\u032az\u032a\u0324|dz\u0324": {
         "type": "consonant",
         "place": "coronal",
-        "manner": "plosive",
+        "manner": "affricate",
         "height": "",
         "backness": "",
         "tone": false,
@@ -10900,7 +10900,7 @@
     },
     "\u02b0\u0283": {
         "type": "consonant",
-        "place": "coronal",
+        "place": "palatal",
         "manner": "fricative",
         "height": "",
         "backness": "",
@@ -10981,7 +10981,7 @@
     },
     "\u0292\u0324": {
         "type": "consonant",
-        "place": "coronal",
+        "place": "palatal",
         "manner": "fricative",
         "height": "",
         "backness": "",
@@ -11387,7 +11387,7 @@
     "t\u032a\u026c\u032a\u02c0|t\u026c\u02c0": {
         "type": "consonant",
         "place": "coronal",
-        "manner": "plosive",
+        "manner": "affricate",
         "height": "",
         "backness": "",
         "tone": false,
@@ -11432,7 +11432,7 @@
     "d\u032az\u032a\u02b2|dz\u02b2": {
         "type": "consonant",
         "place": "coronal",
-        "manner": "plosive",
+        "manner": "affricate",
         "height": "",
         "backness": "",
         "tone": false,
@@ -11540,7 +11540,7 @@
     "ts\u0347\u02b0": {
         "type": "consonant",
         "place": "coronal",
-        "manner": "plosive",
+        "manner": "affricate",
         "height": "",
         "backness": "",
         "tone": false,
@@ -11765,7 +11765,7 @@
     "t\u032as\u032a\u0266|ts\u0266": {
         "type": "consonant",
         "place": "coronal",
-        "manner": "plosive",
+        "manner": "affricate",
         "height": "",
         "backness": "",
         "tone": false,
@@ -11774,7 +11774,7 @@
     "t\u032a\u0266|t\u0266": {
         "type": "consonant",
         "place": "coronal",
-        "manner": "plosive",
+        "manner": "affricate",
         "height": "",
         "backness": "",
         "tone": false,
@@ -12313,8 +12313,8 @@
     },
     "d\u0320\u0292\u027e": {
         "type": "consonant",
-        "place": "coronal",
-        "manner": "plosive",
+        "place": "palatal",
+        "manner": "affricate",
         "height": "",
         "backness": "",
         "tone": false,
@@ -12493,8 +12493,8 @@
     },
     "t\u0320\u0283\u027e": {
         "type": "consonant",
-        "place": "coronal",
-        "manner": "plosive",
+        "place": "palatal",
+        "manner": "affricate",
         "height": "",
         "backness": "",
         "tone": false,
@@ -12755,7 +12755,7 @@
     "dz\u02b7": {
         "type": "consonant",
         "place": "coronal",
-        "manner": "plosive",
+        "manner": "affricate",
         "height": "",
         "backness": "",
         "tone": false,
@@ -12880,7 +12880,7 @@
     },
     "\u0283\u02b0": {
         "type": "consonant",
-        "place": "coronal",
+        "place": "palatal",
         "manner": "fricative",
         "height": "",
         "backness": "",
@@ -12979,8 +12979,8 @@
     },
     "d\u0320\u0292\u02b1": {
         "type": "consonant",
-        "place": "coronal",
-        "manner": "plosive",
+        "place": "palatal",
+        "manner": "affricate",
         "height": "",
         "backness": "",
         "tone": false,
@@ -13124,7 +13124,7 @@
     "ts\u02e4\u02b0": {
         "type": "consonant",
         "place": "coronal",
-        "manner": "plosive",
+        "manner": "affricate",
         "height": "",
         "backness": "",
         "tone": false,
@@ -13132,8 +13132,8 @@
     },
     "t\u0320\u0283\u02e4\u02b0": {
         "type": "consonant",
-        "place": "coronal",
-        "manner": "plosive",
+        "place": "palatal",
+        "manner": "affricate",
         "height": "",
         "backness": "",
         "tone": false,
@@ -13195,7 +13195,7 @@
     },
     "\u0292\u02e4": {
         "type": "consonant",
-        "place": "coronal",
+        "place": "palatal",
         "manner": "fricative",
         "height": "",
         "backness": "",
@@ -13322,7 +13322,7 @@
     "dz\u02b1": {
         "type": "consonant",
         "place": "coronal",
-        "manner": "plosive",
+        "manner": "affricate",
         "height": "",
         "backness": "",
         "tone": false,
@@ -13412,7 +13412,7 @@
     "ts\u02b7": {
         "type": "consonant",
         "place": "coronal",
-        "manner": "plosive",
+        "manner": "affricate",
         "height": "",
         "backness": "",
         "tone": false,
@@ -13709,7 +13709,7 @@
     "t\u033as\u033a": {
         "type": "consonant",
         "place": "coronal",
-        "manner": "plosive",
+        "manner": "affricate",
         "height": "",
         "backness": "",
         "tone": false,
@@ -13979,7 +13979,7 @@
     "ts\u0330": {
         "type": "consonant",
         "place": "coronal",
-        "manner": "plosive",
+        "manner": "affricate",
         "height": "",
         "backness": "",
         "tone": false,
@@ -13987,8 +13987,8 @@
     },
     "t\u0320\u0283\u0330": {
         "type": "consonant",
-        "place": "coronal",
-        "manner": "plosive",
+        "place": "palatal",
+        "manner": "affricate",
         "height": "",
         "backness": "",
         "tone": false,
@@ -14015,7 +14015,7 @@
     "bz": {
         "type": "consonant",
         "place": "labial",
-        "manner": "plosive",
+        "manner": "affricate",
         "height": "",
         "backness": "",
         "tone": false,
@@ -14033,7 +14033,7 @@
     "p\u0283\u02b0": {
         "type": "consonant",
         "place": "labial",
-        "manner": "plosive",
+        "manner": "affricate",
         "height": "",
         "backness": "",
         "tone": false,
@@ -14123,7 +14123,7 @@
     "ts\u032a": {
         "type": "consonant",
         "place": "coronal",
-        "manner": "plosive",
+        "manner": "affricate",
         "height": "",
         "backness": "",
         "tone": false,
@@ -14186,7 +14186,7 @@
     "t\u0330s\u0330": {
         "type": "consonant",
         "place": "coronal",
-        "manner": "plosive",
+        "manner": "affricate",
         "height": "",
         "backness": "",
         "tone": false,
@@ -14194,8 +14194,8 @@
     },
     "t\u0320\u0283\u033a\u02b0": {
         "type": "consonant",
-        "place": "coronal",
-        "manner": "plosive",
+        "place": "palatal",
+        "manner": "affricate",
         "height": "",
         "backness": "",
         "tone": false,
@@ -14203,7 +14203,7 @@
     },
     "\u0283\u033a": {
         "type": "consonant",
-        "place": "coronal",
+        "place": "palatal",
         "manner": "fricative",
         "height": "",
         "backness": "",
@@ -14249,7 +14249,7 @@
     "dz\u02b2": {
         "type": "consonant",
         "place": "coronal",
-        "manner": "plosive",
+        "manner": "affricate",
         "height": "",
         "backness": "",
         "tone": false,
@@ -14906,7 +14906,7 @@
     "t\u026c\u0330": {
         "type": "consonant",
         "place": "coronal",
-        "manner": "plosive",
+        "manner": "affricate",
         "height": "",
         "backness": "",
         "tone": false,
@@ -14987,7 +14987,7 @@
     "t\u032as": {
         "type": "consonant",
         "place": "coronal",
-        "manner": "plosive",
+        "manner": "affricate",
         "height": "",
         "backness": "",
         "tone": false,
@@ -15059,7 +15059,7 @@
     "\u02c0t\u032as": {
         "type": "consonant",
         "place": "coronal",
-        "manner": "plosive",
+        "manner": "affricate",
         "height": "",
         "backness": "",
         "tone": false,
@@ -15068,7 +15068,7 @@
     "\u02c0t\u032a\u026c": {
         "type": "consonant",
         "place": "coronal",
-        "manner": "plosive",
+        "manner": "affricate",
         "height": "",
         "backness": "",
         "tone": false,
@@ -15275,7 +15275,7 @@
     "b\u0266": {
         "type": "consonant",
         "place": "labial",
-        "manner": "plosive",
+        "manner": "affricate",
         "height": "",
         "backness": "",
         "tone": false,
@@ -15284,7 +15284,7 @@
     "d\u032a\u0266": {
         "type": "consonant",
         "place": "coronal",
-        "manner": "plosive",
+        "manner": "affricate",
         "height": "",
         "backness": "",
         "tone": false,
@@ -15320,7 +15320,7 @@
     "\u0256\u0266": {
         "type": "consonant",
         "place": "retroflex",
-        "manner": "plosive",
+        "manner": "affricate",
         "height": "",
         "backness": "",
         "tone": false,
@@ -15329,7 +15329,7 @@
     "\u025f\u0266": {
         "type": "consonant",
         "place": "palatal",
-        "manner": "plosive",
+        "manner": "affricate",
         "height": "",
         "backness": "",
         "tone": false,
@@ -15338,7 +15338,7 @@
     "\u0261\u0266": {
         "type": "consonant",
         "place": "velar",
-        "manner": "plosive",
+        "manner": "affricate",
         "height": "",
         "backness": "",
         "tone": false,
@@ -15374,7 +15374,7 @@
     "dz\u032a": {
         "type": "consonant",
         "place": "coronal",
-        "manner": "plosive",
+        "manner": "affricate",
         "height": "",
         "backness": "",
         "tone": false,
@@ -15887,7 +15887,7 @@
     "t\u032a\u026c\u032a": {
         "type": "consonant",
         "place": "coronal",
-        "manner": "plosive",
+        "manner": "affricate",
         "height": "",
         "backness": "",
         "tone": false,
@@ -15896,7 +15896,7 @@
     "t\u032a\u026c\u032a\u02b0": {
         "type": "consonant",
         "place": "coronal",
-        "manner": "plosive",
+        "manner": "affricate",
         "height": "",
         "backness": "",
         "tone": false,
@@ -16994,7 +16994,7 @@
     "dx": {
         "type": "consonant",
         "place": "coronal",
-        "manner": "plosive",
+        "manner": "affricate",
         "height": "",
         "backness": "",
         "tone": false,
@@ -17012,7 +17012,7 @@
     "d\u032ax": {
         "type": "consonant",
         "place": "coronal",
-        "manner": "plosive",
+        "manner": "affricate",
         "height": "",
         "backness": "",
         "tone": false,
@@ -17318,7 +17318,7 @@
     "t\u032ax": {
         "type": "consonant",
         "place": "coronal",
-        "manner": "plosive",
+        "manner": "affricate",
         "height": "",
         "backness": "",
         "tone": false,
@@ -17713,8 +17713,8 @@
     },
     "d\u0320\u0292\u02b0": {
         "type": "consonant",
-        "place": "coronal",
-        "manner": "plosive",
+        "place": "palatal",
+        "manner": "affricate",
         "height": "",
         "backness": "",
         "tone": false,
@@ -17804,7 +17804,7 @@
     "k\u203cx": {
         "type": "consonant",
         "place": "velar",
-        "manner": "plosive",
+        "manner": "affricate",
         "height": "",
         "backness": "",
         "tone": false,
@@ -17875,8 +17875,8 @@
     },
     "t\u0320\u0283x": {
         "type": "consonant",
-        "place": "coronal",
-        "manner": "plosive",
+        "place": "palatal",
+        "manner": "affricate",
         "height": "",
         "backness": "",
         "tone": false,
@@ -17975,7 +17975,7 @@
     "\u0261\u203cx": {
         "type": "consonant",
         "place": "velar",
-        "manner": "plosive",
+        "manner": "affricate",
         "height": "",
         "backness": "",
         "tone": false,
@@ -18056,7 +18056,7 @@
     "b\u03b2": {
         "type": "consonant",
         "place": "labial",
-        "manner": "plosive",
+        "manner": "affricate",
         "height": "",
         "backness": "",
         "tone": false,
@@ -18065,7 +18065,7 @@
     "p\u0278": {
         "type": "consonant",
         "place": "labial",
-        "manner": "plosive",
+        "manner": "affricate",
         "height": "",
         "backness": "",
         "tone": false,
@@ -18091,8 +18091,8 @@
     },
     "t\u032a\u0283|t\u0320\u0283": {
         "type": "consonant",
-        "place": "coronal",
-        "manner": "plosive",
+        "place": "palatal",
+        "manner": "affricate",
         "height": "",
         "backness": "",
         "tone": false,
@@ -18218,7 +18218,7 @@
     "\u0261\u0263": {
         "type": "consonant",
         "place": "velar",
-        "manner": "plosive",
+        "manner": "affricate",
         "height": "",
         "backness": "",
         "tone": false,
@@ -18533,7 +18533,7 @@
     "bv\u02b7": {
         "type": "consonant",
         "place": "labial",
-        "manner": "plosive",
+        "manner": "affricate",
         "height": "",
         "backness": "",
         "tone": false,
@@ -18560,7 +18560,7 @@
     "ps": {
         "type": "consonant",
         "place": "labial",
-        "manner": "plosive",
+        "manner": "affricate",
         "height": "",
         "backness": "",
         "tone": false,
@@ -18568,8 +18568,8 @@
     },
     "t\u0255\u02b7": {
         "type": "consonant",
-        "place": "coronal",
-        "manner": "plosive",
+        "place": "palatal",
+        "manner": "affricate",
         "height": "",
         "backness": "",
         "tone": false,
@@ -18649,7 +18649,7 @@
     },
     "\u02c0\u0283\u02b7": {
         "type": "consonant",
-        "place": "coronal",
+        "place": "palatal",
         "manner": "fricative",
         "height": "",
         "backness": "",
@@ -18685,7 +18685,7 @@
     },
     "\u0283t": {
         "type": "consonant",
-        "place": "coronal",
+        "place": "palatal",
         "manner": "fricative",
         "height": "",
         "backness": "",
@@ -18695,7 +18695,7 @@
     "bz\u02b7": {
         "type": "consonant",
         "place": "labial",
-        "manner": "plosive",
+        "manner": "affricate",
         "height": "",
         "backness": "",
         "tone": false,
@@ -18722,7 +18722,7 @@
     "ps\u02b7": {
         "type": "consonant",
         "place": "labial",
-        "manner": "plosive",
+        "manner": "affricate",
         "height": "",
         "backness": "",
         "tone": false,
@@ -18731,7 +18731,7 @@
     "ps\u02b7\u02b0": {
         "type": "consonant",
         "place": "labial",
-        "manner": "plosive",
+        "manner": "affricate",
         "height": "",
         "backness": "",
         "tone": false,
@@ -18749,7 +18749,7 @@
     "\u0256\u0290\u02b7": {
         "type": "consonant",
         "place": "retroflex",
-        "manner": "plosive",
+        "manner": "affricate",
         "height": "",
         "backness": "",
         "tone": false,
@@ -18767,7 +18767,7 @@
     "\u0288\u0282\u02b7": {
         "type": "consonant",
         "place": "retroflex",
-        "manner": "plosive",
+        "manner": "affricate",
         "height": "",
         "backness": "",
         "tone": false,
@@ -19108,7 +19108,7 @@
     },
     "\u0283\u02c0": {
         "type": "consonant",
-        "place": "coronal",
+        "place": "palatal",
         "manner": "fricative",
         "height": "",
         "backness": "",
@@ -19117,7 +19117,7 @@
     },
     "\u0292\u02c0": {
         "type": "consonant",
-        "place": "coronal",
+        "place": "palatal",
         "manner": "fricative",
         "height": "",
         "backness": "",
@@ -19397,7 +19397,7 @@
     "d\u0324z": {
         "type": "consonant",
         "place": "coronal",
-        "manner": "plosive",
+        "manner": "affricate",
         "height": "",
         "backness": "",
         "tone": false,
@@ -19622,7 +19622,7 @@
     "ts\u02b2\u02b0": {
         "type": "consonant",
         "place": "coronal",
-        "manner": "plosive",
+        "manner": "affricate",
         "height": "",
         "backness": "",
         "tone": false,
@@ -19765,8 +19765,8 @@
     },
     "d\u032a\u0292": {
         "type": "consonant",
-        "place": "coronal",
-        "manner": "plosive",
+        "place": "palatal",
+        "manner": "affricate",
         "height": "",
         "backness": "",
         "tone": false,
@@ -20171,7 +20171,7 @@
     "d\u0325z\u0325": {
         "type": "consonant",
         "place": "coronal",
-        "manner": "plosive",
+        "manner": "affricate",
         "height": "",
         "backness": "",
         "tone": false,
@@ -20692,7 +20692,7 @@
     },
     "\u0283\u02d1": {
         "type": "consonant",
-        "place": "coronal",
+        "place": "palatal",
         "manner": "fricative",
         "height": "",
         "backness": "",
@@ -20756,7 +20756,7 @@
     "d\u0320z\u0320\u02b2": {
         "type": "consonant",
         "place": "coronal",
-        "manner": "plosive",
+        "manner": "affricate",
         "height": "",
         "backness": "",
         "tone": false,
@@ -20819,7 +20819,7 @@
     "t\u0320s\u0320\u02b2\u02b0": {
         "type": "consonant",
         "place": "coronal",
-        "manner": "plosive",
+        "manner": "affricate",
         "height": "",
         "backness": "",
         "tone": false,
@@ -20962,8 +20962,8 @@
     },
     "d\u031f\u0291\u031f": {
         "type": "consonant",
-        "place": "coronal",
-        "manner": "plosive",
+        "place": "palatal",
+        "manner": "affricate",
         "height": "",
         "backness": "",
         "tone": false,
@@ -20980,8 +20980,8 @@
     },
     "t\u031f\u0255\u031f": {
         "type": "consonant",
-        "place": "coronal",
-        "manner": "plosive",
+        "place": "palatal",
+        "manner": "affricate",
         "height": "",
         "backness": "",
         "tone": false,
@@ -21386,7 +21386,7 @@
     "\u0288\u0282\u02d0": {
         "type": "consonant",
         "place": "retroflex",
-        "manner": "plosive",
+        "manner": "affricate",
         "height": "",
         "backness": "",
         "tone": false,
@@ -21718,7 +21718,7 @@
     },
     "\u0283\u02e4": {
         "type": "consonant",
-        "place": "coronal",
+        "place": "palatal",
         "manner": "fricative",
         "height": "",
         "backness": "",
@@ -21727,7 +21727,7 @@
     },
     "\u0292\u02e4\u02d0": {
         "type": "consonant",
-        "place": "coronal",
+        "place": "palatal",
         "manner": "fricative",
         "height": "",
         "backness": "",
@@ -21863,7 +21863,7 @@
     "\u02b0ts\u02d0": {
         "type": "consonant",
         "place": "coronal",
-        "manner": "plosive",
+        "manner": "affricate",
         "height": "",
         "backness": "",
         "tone": false,
@@ -21880,8 +21880,8 @@
     },
     "\u02b0t\u0320\u0283\u02d0": {
         "type": "consonant",
-        "place": "coronal",
-        "manner": "plosive",
+        "place": "palatal",
+        "manner": "affricate",
         "height": "",
         "backness": "",
         "tone": false,
@@ -21926,7 +21926,7 @@
     "t\u026c\u02bc\u02d0": {
         "type": "consonant",
         "place": "coronal",
-        "manner": "plosive",
+        "manner": "affricate",
         "height": "",
         "backness": "",
         "tone": false,
@@ -21935,7 +21935,7 @@
     "t\u026c\u02d0": {
         "type": "consonant",
         "place": "coronal",
-        "manner": "plosive",
+        "manner": "affricate",
         "height": "",
         "backness": "",
         "tone": false,
@@ -22025,7 +22025,7 @@
     "d\u0324z\u0324": {
         "type": "consonant",
         "place": "coronal",
-        "manner": "plosive",
+        "manner": "affricate",
         "height": "",
         "backness": "",
         "tone": false,
@@ -22187,7 +22187,7 @@
     "d\u032az": {
         "type": "consonant",
         "place": "coronal",
-        "manner": "plosive",
+        "manner": "affricate",
         "height": "",
         "backness": "",
         "tone": false,
@@ -22214,7 +22214,7 @@
     "d\u0325z\u0325\u02b2": {
         "type": "consonant",
         "place": "coronal",
-        "manner": "plosive",
+        "manner": "affricate",
         "height": "",
         "backness": "",
         "tone": false,
@@ -22222,8 +22222,8 @@
     },
     "d\u0325\u0291\u0325": {
         "type": "consonant",
-        "place": "coronal",
-        "manner": "plosive",
+        "place": "palatal",
+        "manner": "affricate",
         "height": "",
         "backness": "",
         "tone": false,
@@ -22367,7 +22367,7 @@
     "ts\u02b2\u02d0": {
         "type": "consonant",
         "place": "coronal",
-        "manner": "plosive",
+        "manner": "affricate",
         "height": "",
         "backness": "",
         "tone": false,
@@ -22375,8 +22375,8 @@
     },
     "t\u0255\u02d0": {
         "type": "consonant",
-        "place": "coronal",
-        "manner": "plosive",
+        "place": "palatal",
+        "manner": "affricate",
         "height": "",
         "backness": "",
         "tone": false,
@@ -22466,7 +22466,7 @@
     "\u02b0ts\u02b2": {
         "type": "consonant",
         "place": "coronal",
-        "manner": "plosive",
+        "manner": "affricate",
         "height": "",
         "backness": "",
         "tone": false,
@@ -22474,8 +22474,8 @@
     },
     "\u02b0t\u0255": {
         "type": "consonant",
-        "place": "coronal",
-        "manner": "plosive",
+        "place": "palatal",
+        "manner": "affricate",
         "height": "",
         "backness": "",
         "tone": false,
@@ -22555,7 +22555,7 @@
     },
     "\u0292\u030a": {
         "type": "consonant",
-        "place": "coronal",
+        "place": "palatal",
         "manner": "fricative",
         "height": "",
         "backness": "",
@@ -22600,8 +22600,8 @@
     },
     "t\u0320\u0283\u02e4": {
         "type": "consonant",
-        "place": "coronal",
-        "manner": "plosive",
+        "place": "palatal",
+        "manner": "affricate",
         "height": "",
         "backness": "",
         "tone": false,
@@ -22762,8 +22762,8 @@
     },
     "t\u033a\u0255\u033a": {
         "type": "consonant",
-        "place": "coronal",
-        "manner": "plosive",
+        "place": "palatal",
+        "manner": "affricate",
         "height": "",
         "backness": "",
         "tone": false,
@@ -22916,7 +22916,7 @@
     "t\u032a\u026c": {
         "type": "consonant",
         "place": "coronal",
-        "manner": "plosive",
+        "manner": "affricate",
         "height": "",
         "backness": "",
         "tone": false,
@@ -23113,8 +23113,8 @@
     },
     "d\u0320\u0293\u02b7": {
         "type": "consonant",
-        "place": "coronal",
-        "manner": "plosive",
+        "place": "palatal",
+        "manner": "affricate",
         "height": "",
         "backness": "",
         "tone": false,
@@ -23140,8 +23140,8 @@
     },
     "t\u0320\u0286\u02b7": {
         "type": "consonant",
-        "place": "coronal",
-        "manner": "plosive",
+        "place": "palatal",
+        "manner": "affricate",
         "height": "",
         "backness": "",
         "tone": false,
@@ -23384,7 +23384,7 @@
     "t\u033bs\u032a\u033b": {
         "type": "consonant",
         "place": "coronal",
-        "manner": "plosive",
+        "manner": "affricate",
         "height": "",
         "backness": "",
         "tone": false,
@@ -23501,7 +23501,7 @@
     "q\u03c7\u02b0\u02d0": {
         "type": "consonant",
         "place": "laryngeal",
-        "manner": "plosive",
+        "manner": "affricate",
         "height": "",
         "backness": "",
         "tone": false,
@@ -23510,7 +23510,7 @@
     "t\u026c\u02b0\u02d0": {
         "type": "consonant",
         "place": "coronal",
-        "manner": "plosive",
+        "manner": "affricate",
         "height": "",
         "backness": "",
         "tone": false,
@@ -23518,7 +23518,7 @@
     },
     "\u0283\u02bc\u02d0": {
         "type": "consonant",
-        "place": "coronal",
+        "place": "palatal",
         "manner": "fricative",
         "height": "",
         "backness": "",
@@ -23761,8 +23761,8 @@
     },
     "t\u0320\u0283\u033a": {
         "type": "consonant",
-        "place": "coronal",
-        "manner": "plosive",
+        "place": "palatal",
+        "manner": "affricate",
         "height": "",
         "backness": "",
         "tone": false,
@@ -23842,8 +23842,8 @@
     },
     "d\u0324\u0291\u0324": {
         "type": "consonant",
-        "place": "coronal",
-        "manner": "plosive",
+        "place": "palatal",
+        "manner": "affricate",
         "height": "",
         "backness": "",
         "tone": false,
@@ -23915,7 +23915,7 @@
     "t\u026c\u02b7\u02b0": {
         "type": "consonant",
         "place": "coronal",
-        "manner": "plosive",
+        "manner": "affricate",
         "height": "",
         "backness": "",
         "tone": false,
@@ -23959,8 +23959,8 @@
     },
     "t\u0320\u0286\u02b7\u02b0": {
         "type": "consonant",
-        "place": "coronal",
-        "manner": "plosive",
+        "place": "palatal",
+        "manner": "affricate",
         "height": "",
         "backness": "",
         "tone": false,
@@ -24112,7 +24112,7 @@
     },
     "\u0292\u0329": {
         "type": "consonant",
-        "place": "coronal",
+        "place": "palatal",
         "manner": "fricative",
         "height": "",
         "backness": "",
@@ -24184,7 +24184,7 @@
     },
     "\u02bc\u0283": {
         "type": "consonant",
-        "place": "coronal",
+        "place": "palatal",
         "manner": "fricative",
         "height": "",
         "backness": "",
@@ -24265,8 +24265,8 @@
     },
     "d\u033b\u0292\u033b": {
         "type": "consonant",
-        "place": "coronal",
-        "manner": "plosive",
+        "place": "palatal",
+        "manner": "affricate",
         "height": "",
         "backness": "",
         "tone": false,
@@ -24301,8 +24301,8 @@
     },
     "t\u033a\u0283\u033a\u02b7": {
         "type": "consonant",
-        "place": "coronal",
-        "manner": "plosive",
+        "place": "palatal",
+        "manner": "affricate",
         "height": "",
         "backness": "",
         "tone": false,
@@ -24310,8 +24310,8 @@
     },
     "t\u033b\u0283\u033b": {
         "type": "consonant",
-        "place": "coronal",
-        "manner": "plosive",
+        "place": "palatal",
+        "manner": "affricate",
         "height": "",
         "backness": "",
         "tone": false,
@@ -24328,7 +24328,7 @@
     },
     "\u0292\u033a": {
         "type": "consonant",
-        "place": "coronal",
+        "place": "palatal",
         "manner": "fricative",
         "height": "",
         "backness": "",
@@ -24473,7 +24473,7 @@
     "\u02b1dz": {
         "type": "consonant",
         "place": "coronal",
-        "manner": "plosive",
+        "manner": "affricate",
         "height": "",
         "backness": "",
         "tone": false,
@@ -24481,8 +24481,8 @@
     },
     "\u02b1d\u0291": {
         "type": "consonant",
-        "place": "coronal",
-        "manner": "plosive",
+        "place": "palatal",
+        "manner": "affricate",
         "height": "",
         "backness": "",
         "tone": false,
@@ -24635,7 +24635,7 @@
     "\u02b7\u02b0ts": {
         "type": "consonant",
         "place": "coronal",
-        "manner": "plosive",
+        "manner": "affricate",
         "height": "",
         "backness": "",
         "tone": false,
@@ -24643,8 +24643,8 @@
     },
     "\u02b7\u02b0t\u0255": {
         "type": "consonant",
-        "place": "coronal",
-        "manner": "plosive",
+        "place": "palatal",
+        "manner": "affricate",
         "height": "",
         "backness": "",
         "tone": false,
@@ -24680,7 +24680,7 @@
     "\u0262\u0281": {
         "type": "consonant",
         "place": "laryngeal",
-        "manner": "plosive",
+        "manner": "affricate",
         "height": "",
         "backness": "",
         "tone": false,
@@ -24688,8 +24688,8 @@
     },
     "d\u0325\u0292\u030a": {
         "type": "consonant",
-        "place": "coronal",
-        "manner": "plosive",
+        "place": "palatal",
+        "manner": "affricate",
         "height": "",
         "backness": "",
         "tone": false,
@@ -24698,7 +24698,7 @@
     "\u0256\u0325\u0290\u0325": {
         "type": "consonant",
         "place": "retroflex",
-        "manner": "plosive",
+        "manner": "affricate",
         "height": "",
         "backness": "",
         "tone": false,
@@ -24752,7 +24752,7 @@
     "\u02b0ts\u02b0": {
         "type": "consonant",
         "place": "coronal",
-        "manner": "plosive",
+        "manner": "affricate",
         "height": "",
         "backness": "",
         "tone": false,
@@ -24760,8 +24760,8 @@
     },
     "\u02b0t\u0255\u02b0": {
         "type": "consonant",
-        "place": "coronal",
-        "manner": "plosive",
+        "place": "palatal",
+        "manner": "affricate",
         "height": "",
         "backness": "",
         "tone": false,
@@ -24778,8 +24778,8 @@
     },
     "\u02b0t\u0320\u0283\u02b0": {
         "type": "consonant",
-        "place": "coronal",
-        "manner": "plosive",
+        "place": "palatal",
+        "manner": "affricate",
         "height": "",
         "backness": "",
         "tone": false,
@@ -24788,7 +24788,7 @@
     "\u02b0\u0288\u0282\u02b0": {
         "type": "consonant",
         "place": "retroflex",
-        "manner": "plosive",
+        "manner": "affricate",
         "height": "",
         "backness": "",
         "tone": false,
@@ -24797,7 +24797,7 @@
     "d\u0347z\u0347": {
         "type": "consonant",
         "place": "coronal",
-        "manner": "plosive",
+        "manner": "affricate",
         "height": "",
         "backness": "",
         "tone": false,
@@ -24833,7 +24833,7 @@
     "t\u0347s\u0347": {
         "type": "consonant",
         "place": "coronal",
-        "manner": "plosive",
+        "manner": "affricate",
         "height": "",
         "backness": "",
         "tone": false,
@@ -24842,7 +24842,7 @@
     "t\u0347s\u0347\u02b0": {
         "type": "consonant",
         "place": "coronal",
-        "manner": "plosive",
+        "manner": "affricate",
         "height": "",
         "backness": "",
         "tone": false,
@@ -24968,7 +24968,7 @@
     "\u025f\u0325\u029d\u0325": {
         "type": "consonant",
         "place": "palatal",
-        "manner": "plosive",
+        "manner": "affricate",
         "height": "",
         "backness": "",
         "tone": false,
@@ -25193,7 +25193,7 @@
     "q\u03c7\u02b0": {
         "type": "consonant",
         "place": "laryngeal",
-        "manner": "plosive",
+        "manner": "affricate",
         "height": "",
         "backness": "",
         "tone": false,
@@ -25382,7 +25382,7 @@
     "kx\u02b0\u02d0": {
         "type": "consonant",
         "place": "velar",
-        "manner": "plosive",
+        "manner": "affricate",
         "height": "",
         "backness": "",
         "tone": false,
@@ -25499,7 +25499,7 @@
     "t\u033as\u033a\u02b0": {
         "type": "consonant",
         "place": "coronal",
-        "manner": "plosive",
+        "manner": "affricate",
         "height": "",
         "backness": "",
         "tone": false,
@@ -25732,7 +25732,7 @@
     },
     "\u0283\u031e": {
         "type": "consonant",
-        "place": "coronal",
+        "place": "palatal",
         "manner": "fricative",
         "height": "",
         "backness": "",
@@ -25741,7 +25741,7 @@
     },
     "\u0283\u031e\u02bc": {
         "type": "consonant",
-        "place": "coronal",
+        "place": "palatal",
         "manner": "non-pulmonic",
         "height": "",
         "backness": "",
