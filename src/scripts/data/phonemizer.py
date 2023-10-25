@@ -62,7 +62,8 @@ def allUniquePhonemes():
                     t = False
                     if phone[ind] in plosives: 
                         moa = "plosive"
-                        if phone[min(ind+1, len(phone)-1)] in fricatives or phone[min(ind+2, len(phone)-1)] in fricatives:
+                        if (phone[min(ind+1, len(phone)-1)] in fricatives or
+                             phone[min(ind+2, len(phone)-1)] in fricatives):
                             moa = "affricate"
                     elif phone[ind] in fricatives: moa = "fricative"
                     elif phone[ind] in nasals: moa = "nasal"
@@ -85,8 +86,11 @@ def allUniquePhonemes():
                     if phone[ind] in labial: poa = "labial"
                     elif phone[ind] in coronal: 
                         poa = "coronal"
-                        if moa == "affricate":
-                            if phone[min(ind+1, len(phone)-1)] in palatal or phone[min(ind+2, len(phone)-1)] in palatal:
+                        if moa == "affricate" or moa == "nasal":
+                            if (phone[min(ind+1, len(phone)-1)] in palatal or
+                                phone[min(ind+2, len(phone)-1)] in palatal or
+                                phone[min(ind+3, len(phone)-1)] in palatal or
+                                'ʃ' in phone or 'ʒ' in phone):
                                 poa = "palatal"
                                 print(phone)
                     elif phone[ind] in retroflex: poa = "retroflex"
