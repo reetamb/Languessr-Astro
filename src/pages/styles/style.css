@@ -86,9 +86,10 @@ table, td {
 #map {
     background-color: blue;
     height: 30vh;
-    min-height: 300px;
-    width: 90%;
+    min-height: 285px;
+    width: 100%;
     margin: auto;
+	border-radius: 12px;
 }
 #the {
     display: inline-block;
@@ -208,7 +209,8 @@ ol {
 		width: 90%;
 		max-width: 90%;
 		margin: auto;
-		height: 300px;
+		height: 280px;
+		border-radius: 12px;
 	}
 	#the {
 		display: inline-block;
