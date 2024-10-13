@@ -3,6 +3,7 @@ import json
 
 with open('src/scripts/data/languages.json', 'r', encoding='utf-8') as file:
     langs = json.load(file)
+    newlangs = dict()
     names = langs.keys()
     for name in names:
         phonemes = langs.get(name).get("phonemes")
@@ -10,9 +11,14 @@ with open('src/scripts/data/languages.json', 'r', encoding='utf-8') as file:
         for i in range(len(cleaned)):
             if "|" in cleaned[i]:
                 cleaned[i] = cleaned[i].split("|")[0]
+        
+        newname = name.title()
         langs[name]["phonemes"] = cleaned
+        newlangs[newname] = langs[name]
 
-copy = langs.copy()
+
+
+copy = newlangs.copy()
 for index, (key, value) in enumerate(langs.items()):
     if (value.get("location") == ("", "")):
         copy.pop(key)
