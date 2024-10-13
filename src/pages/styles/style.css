@@ -15,6 +15,7 @@ h1 {
 .text-gradient {
     background-image: var(--accent-gradient);
     -webkit-background-clip: text;
+	background-clip: text;
     -webkit-text-fill-color: transparent;
     background-size: 400%;
     background-position: 0%;
@@ -58,6 +59,7 @@ input {
     margin-right: 5px;
     color: black;
     float: none;
+	max-width: 120px;
 }
 input::placeholder {
     color: rgb(var(--accent-dark));
@@ -135,6 +137,7 @@ ol {
 	.text-gradient {
 		background-image: var(--accent-gradient);
 		-webkit-background-clip: text;
+		background-clip: text;
 		-webkit-text-fill-color: transparent;
 		background-size: 400%;
 		width: 50%;
@@ -177,6 +180,7 @@ ol {
 		margin-right: 5px;
 		color: black;
 		float: none;
+		width: 120px;
 	}
 	input::placeholder {
 		color: rgb(var(--accent-dark));
